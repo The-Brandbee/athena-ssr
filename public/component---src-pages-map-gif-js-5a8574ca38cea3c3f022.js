@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktest_projet=self.webpackChunktest_projet||[]).push([[626],{5771:function(e,t,a){a.r(t);var n=a(7294),r=(a(7857),a(6448)),s=a(7556);t.default=()=>{const{0:e,1:t}=(0,n.useState)(!1);return n.createElement(r.Z,{onEnter:()=>t(!0),onExit:()=>t(!1)},n.createElement("div",{className:"mapframe-inline"},n.createElement("div",{className:"mapframe-inline-border"}),n.createElement("img",{src:s.Z,alt:""})))}}}]);
+//# sourceMappingURL=component---src-pages-map-gif-js-5a8574ca38cea3c3f022.js.map

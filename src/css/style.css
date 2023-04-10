@@ -1,0 +1,6745 @@
+body {
+    font-size: 14px;
+    ;
+}
+img {
+    max-width: 100%;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+    text-decoration: none !important;
+}
+@font-face {
+    font-family: LeagueSpartan-Light;
+    src: url(../fonts/LeagueSpartan-Light.ttf);
+}
+
+@font-face {
+    font-family: LeagueSpartan-SemiBold;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: LeagueSpartan-Regular;
+    src: url(../fonts/LeagueSpartan-Regular.ttf);
+}
+
+@font-face {
+    font-family: LeagueSpartan-Bold;
+    src: url(../fonts/LeagueSpartan-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: CrimsonPro-ExtraLight;
+    src: url(../fonts/CrimsonPro-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: CrimsonPro-Light;
+    src: url(../fonts/CrimsonPro-Light.ttf);
+}
+
+@font-face {
+    font-family: CrimsonPro-Regular;
+    src: url(../fonts/CrimsonPro-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: Cinzel-Regular;
+    src: url(../fonts/Cinzel-Regular.ttf);
+
+}
+
+.None {
+    display: none;
+}
+
+.marginBottom {
+    margin-bottom: 100px;
+}
+
+p {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 92% !important;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.first-slide.second {
+    position: relative;
+}
+header .header-logo{
+    margin-top: 0px;
+}
+header .header-logo a{
+    display: inline-block;
+    padding: 38px 0px 33px 0px;
+}
+
+.second-banner-changehover {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.second-banner-changehover-main {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.second-banner-changehover-right {
+    width: 60%;
+}
+
+.second-banner-changehover-left {
+    width: 40%;
+    display: flex;
+}
+
+.second-banner-changehover-left h3 {
+    font-family: LeagueSpartan-Bold;
+    color: #106268;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+header .col-md-2.fixmenu {
+    display: none;
+}
+
+header .sticky .col-md-10 {
+    width: 66.333333%;
+}
+
+header .sticky .col-md-2.fixmenu {
+    display: initial;
+    margin-top: 21px;
+}
+
+header .col-md-2.fixmenu a {
+    font-family: LeagueSpartan-Light;
+    font-size: 14px;
+    color: #FFF;
+    background: #08313a;
+    padding: 14px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    line-height: 0px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+header .col-md-2.fixmenu a:hover {}
+
+.second-banner-changehover .container {
+    height: 100%;
+}
+
+.second-banner-changehover-left h2 {
+    font-family: LeagueSpartan-Regular;
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.second-banner-changehover-left p {
+    font-size: 25px;
+}
+
+.second-banner-changehover-left p a {
+    margin-top: 20px;
+}
+
+/*footer start */
+footer {
+    background: #08313a;
+    padding: 65px 0px;
+}
+
+footer .row .col-md-9 {
+    flex: 0 0 72%;
+    max-width: 72%;
+}
+
+footer .row .col-md-3 {
+    flex: 0 0 28%;
+    max-width: 28%;
+    width: 28%;
+}
+
+footer .col-md-9 .row .col-md-3:nth-child(1) {
+    flex: 0 0 21%;
+    max-width: 21%;
+    width: 21%;
+}
+
+footer .col-md-9 .row .col-md-3:nth-child(4) {
+    flex: 0 0 21%;
+    max-width: 21%;
+    width: 21%;
+}
+
+footer .col-md-9 .row .col-md-3 {
+    flex: 0 0 29%;
+    max-width: 29%;
+}
+
+.middle-footer {}
+
+.middle-footer h4 {
+    color: #adcf62;
+    margin-bottom: 20px;
+    font-family: LeagueSpartan-SemiBold;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.middle-footer ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.middle-footer ul li {
+    margin-bottom: 20px;
+}
+
+.middle-footer ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.middle-footer ul li a {
+    color: #fff;
+    font-family: LeagueSpartan-Light;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.middle-footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.middle-footer ul li a:hover {
+    color: #adcf62;
+    text-decoration: none;
+}
+
+.copyright-sec {
+    background: #107869;
+    padding: 15px 5px;
+}
+
+.copyright-sec p {
+    color: #fff;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Raleway-Medium;
+    font-size: 14px;
+
+}
+
+.footer-right-frame .subsc {}
+
+.footer-right-frame .subsc h4 {
+    color: #fff;
+    font-family: LeagueSpartan-SemiBold;
+    font-size: 18px;
+    margin-bottom: 17px;
+    margin-top: 0px;
+}
+
+.footer-right-frame .subsc input {
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    width: 80%;
+}
+
+.footer-right-frame .subsc button {
+    background: transparent;
+    border: 0px;
+}
+
+.touch ul {
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 30px;
+
+}
+
+.touch ul li {
+    display: initial;
+    margin-right: 21px;
+}
+
+.footer-right-frame .subsc input::-webkit-input-placeholder {
+    /* Edge */
+    color: #fff;
+}
+
+.footer-right-frame .subsc input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+.footer-right-frame .subsc input::placeholder {
+    color: #fff;
+}
+
+.footer-top-map {
+    padding-bottom: 100px;
+}
+
+.footer-top-map-img img {
+    width: 102%;
+    margin-left: -1%;
+}
+
+.footer-top-map-img h4 {
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.mapframe-inline-border {
+    width: 10px;
+    position: absolute;
+    right: 5px;
+    height: 100%;
+    background: #fff;
+}
+
+.mapframe-inline {
+    display: flex;
+    position: relative;
+}
+
+.footer-top-map-img h4 span {
+    display: block;
+    color: #107869;
+    font-family: CrimsonPro-Regular;
+}
+
+.footer-top-map-img-button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer-top-map-img-button-link {
+    text-align: center;
+    color: #107869;
+    font-family: LeagueSpartan-Light;
+    font-size: 18px;
+    border: 1px solid #107869;
+    border-radius: 4px;
+    padding: 5px 15px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.footer-top-map-img-button-link:hover {
+    background: #107869;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-top-map-img-button-link img {
+    margin-left: 35px;
+    width: 20px !important;
+    display: inherit;
+}
+
+.footer-top-map-img-button-link:hover .normal {
+    display: none;
+}
+
+.footer-top-map-img-button-link .normal-ho {
+    display: none;
+}
+
+.footer-top-map-img-button-link:hover .normal-ho {
+    display: inherit;
+
+}
+
+@keyframes heartbeat1 {
+    0% {
+        transform: scale(.75);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(.75);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(.75);
+    }
+
+    100% {
+        transform: scale(.75);
+    }
+}
+
+.footer-top-map-img-button-link:hover img {
+
+    animation: heartbeat1 2s infinite;
+}
+
+.right-top-bar {}
+
+.right-top-bar ul {
+    padding: 0px;
+    list-style-type: none;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.right-top-bar ul li {
+    display: inline-block;
+}
+
+.right-top-bar ul li a {
+    font-family: LeagueSpartan-Light;
+    font-size: 14px;
+    color: #FFF;
+    background: #08313a;
+    padding: 14px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 25px;
+    line-height: 0px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.right-top-bar ul li a:hover {
+    background: #107869;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-menu-header {}
+
+.navbar-menu-header ul {
+    padding: 0px;
+    list-style-type: none;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.navbar-menu-header ul li {
+    display: inline-block;
+}
+
+.navbar-menu-header ul li .droup-menuheader-main-section {
+    background: #f4f4f4;
+    padding: 34px 0px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 100px;
+    z-index: 99999;
+    display: none;
+    height: 300px;
+    border-top: 2px solid #adcf6269;
+}
+
+.sticky .navbar-menu-header ul li .droup-menuheader-main-section {
+    top: 65px;
+}
+
+.navbar-menu-header ul li .droup-menuheader-main-section.show {
+    display: block;
+}
+
+header div {
+    transform: inherit !important;
+}
+
+.droup-menuheader-main-section-right-list {}
+
+.droup-menuheader-main-section-right-list ul {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.droup-menuheader-main-section-right-list ul li {
+    margin-bottom: 20px;
+    list-style-type: none;
+    display: block;
+    position: relative;
+}
+
+.second-banner-changehover-left2.new-home h3 {
+    margin-bottom: 0px;
+}
+
+.second-banner-changehover-left2.new-home h2 {
+    margin-top: 0px;
+}
+
+.track-your-college-left-link.about-athena {
+    margin-top: 50px;
+}
+
+.droup-menuheader-main-section-right-list ul li a {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.droup-menuheader-main-section-right-list ul.menu-left {
+    padding-left: 115px;
+}
+
+.droup-menuheader-main-section-right-list ul.menu-right {
+    padding-left: 35px;
+}
+
+.droup-menuheader-main-section-right-list ul li::before {
+    content: "\2022";
+    color: #0f776c;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 20px;
+    position: absolute;
+    top: -4px;
+}
+
+.droup-menuheader-main-section-left-image {
+    text-align: left;
+}
+
+.droup-menuheader-main-section-left-image img {
+    width: 100%;
+    height: 180px;
+    margin-top: 30px;
+}
+
+.droup-menuheader-main-section-right-list ul li a {
+    font-family: LeagueSpartan-Light;
+    font-size: 16px;
+    color: #141414;
+    display: inline-block;
+    margin-left: 10px !important;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.droup-menuheader-main-section-right-list ul li a:hover {
+    color: #107869;
+}
+
+
+header .col-md-10 {
+    position: inherit;
+}
+
+.navbar-menu-header ul li a {
+    font-family: LeagueSpartan-Light;
+    font-size: 16px;
+    color: #141414;
+    display: inline-block;
+    margin-left: 30px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.sticky .navbar-menu-header ul li a {
+    padding-top: 10px;
+}
+
+.navbar-menu-header ul li a:hover {
+    color: #107869;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.header-logo img {}
+
+.banner-image img {
+    width: 100%;
+}
+
+.banner-text-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    z-index: 99999999999;
+}
+
+.slider-banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-banner .slick-dots {
+    bottom: 20px;
+}
+
+.slider-banner .slick-dots li.slick-active button:before {
+    color: #fff;
+}
+
+.slider-banner .slick-dots li {
+    width: 10px;
+}
+
+.slider-banner .slick-dots li button:before {
+    font-size: 8px;
+}
+
+.slick-dots li button:before {
+    color: #adcf62;
+    opacity: 1;
+}
+
+.banner-image {
+    position: relative;
+}
+
+.banner-image .banner-text-middle h2 {
+    font-family: LeagueSpartan-Regular;
+    font-size: 48px;
+    line-height: 52px;
+}
+
+.banner-image .banner-text-middle h2 span {
+    font-family: LeagueSpartan-Bold;
+    color: #adcf62;
+    text-transform: uppercase;
+    display: block;
+}
+
+.banner-image .banner-text-middle p {
+    font-size: 25px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.banner-image .banner-text-middle p a {
+    font-size: 19px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 5px 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: 0.4s;
+
+}
+
+.banner-image .banner-text-middle p a span img {
+    margin-left: 25px;
+}
+
+
+.banner-image .banner-text-middle p a:hover {
+    background: #107869;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #107869;
+}
+
+.track-your-college {
+    padding: 100px 0px;
+}
+
+.Testimonials-home-middle .track-your-college .track-your-college-left {
+    background: #fff;
+    position: relative;
+    left: -30%;
+    padding: 80px 0px 80px 60px;
+    position: absolute;
+    right: 0px;
+    width: 110%;
+}
+
+.track-your-college .track-your-college-left h2 {
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 46px;
+    line-height: 46px;
+    margin-top: 0px;
+}
+
+
+
+.track-your-college .track-your-college-left h3 {
+    font-family: LeagueSpartan-Bold;
+    color: #106268;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.track-your-college .track-your-college-left p {
+    margin: 40px 0px;
+}
+
+.track-your-college .track-your-college-left-link {}
+
+.track-your-college-right-img {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.track-your-college-right-img img {
+    width: 100%;
+}
+
+.Testimonials-home-middle {
+    display: flex;
+    overflow: hidden;
+}
+
+.Testimonials-home-middle .Testimonials-home-middle-left {
+    width: 65%;
+    background: #ededed;
+    padding: 100px 0px 120px 0px;
+    position: relative;
+}
+
+.Testimonials-home-middle .Testimonials-home-middle-right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.Testimonials-home-middle-right.track-your-college {
+    padding: 0px;
+}
+
+.Testimonials-home-middle-left .TESTIMONIALS-list-main-home {
+    background: #107869;
+    margin-left: 60px;
+    padding: 30px;
+    border-radius: 7px;
+    height: 100%;
+}
+
+.Testimonials-home-middle-left .TESTIMONIALS-list-main-home:hover {
+    background: #08313a;
+}
+
+.TESTIMONIALS-list-main-home-main {
+    width: 110%;
+    position: relative;
+    margin-left: -37%;
+}
+
+.TESTIMONIALS-list-main-home-top-cont {
+    text-align: right;
+}
+
+.TESTIMONIALS-list-main-home-top-cont img {
+    width: 50px;
+}
+
+.TESTIMONIALS-list-main-home-top-cont p {
+    color: #fff;
+    text-align: left;
+    margin: 40px 0px;
+}
+
+.TESTIMONIALS-list-main-home-top-cont-img {
+    display: flex;
+    align-items: center;
+}
+
+.TESTIMONIALS-list-main-home-top-cont-img-left {
+    margin-right: 20px;
+}
+
+.TESTIMONIALS-list-main-home-top-cont-img-left img {
+    width: 80px;
+    border-radius: 50px;
+}
+
+.TESTIMONIALS-list-main-home-top-cont-img-right {}
+
+.TESTIMONIALS-list-main-home-top-cont-img-right h4 {
+    color: #fff;
+    font-size: 18px;
+    font-family: LeagueSpartan-Bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.TESTIMONIALS-list-main-home-top-cont-img-right p {
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.Testimonials-home-middle .react-multi-carousel-list {
+    position: initial;
+
+}
+
+.Testimonials-home-middle .react-multiple-carousel__arrow {
+    bottom: -70px;
+    transition-duration: 0.4s;
+}
+
+/*.Testimonials-home-middle .react-multiple-carousel__arrow:hover {
+    background: #08313a;
+}
+
+.Testimonials-home-middle .react-multiple-carousel__arrow:hover ::before {
+    color: #ededed;
+}*/
+
+
+.Testimonials-home-middle .react-multiple-carousel__arrow--left {
+    right: 45px;
+    width: auto;
+    left: inherit;
+}
+
+.Testimonials-home-middle .react-multiple-carousel__arrow--right {
+    right: 0px;
+}
+
+.Testimonials-home-middle .react-multiple-carousel__arrow::before {
+    color: #107869;
+    font-size: 14px;
+}
+
+.Testimonials-home-middle .react-multiple-carousel__arrow {
+    background: #fff;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.Testimonials-home-middle .react-multiple-carousel__arrow:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.why-choese-us-home-page {
+    background: #f4f4f4;
+    padding: 100px 0px;
+}
+
+.why-choese-us-home-page-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.why-choese-us-home-page-heading h3 {
+    font-family: LeagueSpartan-Bold;
+    color: #106268;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.why-choese-us-home-page-heading h2 {
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 46px;
+    line-height: 46px;
+    margin-top: 0px;
+}
+
+.why-choese-us-home-page-heading-middle {
+    display: flex;
+}
+
+.why-choese-us-home-page-heading-middle-left {
+    width: 25%;
+    margin-right: 1.5%;
+}
+
+.why-choese-us-home-page-heading-middle-left-img {
+    position: relative;
+    margin-bottom: 17px;
+}
+
+.why-choese-us-home-page-heading-middle-left-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.why-choese-us-home-page-heading-middle-left-img-back {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #0000008f;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.why-choese-us-home-page-heading-middle-left-img:hover .why-choese-us-home-page-heading-middle-left-img-back {
+    background: #107869;
+}
+
+.why-choese-us-home-page-heading-middle-left-img-2 {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: auto;
+    z-index: 9999;
+    padding: 0px 15px;
+}
+
+.why-choese-us-home-page-heading-middle-left-img-2 h4 {
+    font-family: Cinzel-Regular;
+    color: #fff;
+    font-size: 45px;
+}
+
+.why-choese-us-home-page-heading-middle-left-img-2 p {
+    color: #fff;
+}
+
+.why-choese-us-home-page-heading-middle-left-img-2 p span {
+    font-weight: bold;
+}
+
+.why-choese-us-home-page-heading-middle-left-img-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: none;
+}
+
+.why-choese-us-home-page-heading-middle-left-img:hover .why-choese-us-home-page-heading-middle-left-img-icon {
+    display: inherit;
+}
+
+.why-choese-us-home-page-heading-middle-left-img-icon img {
+    border-radius: 0px;
+    height: 60px;
+}
+
+.our-result-home {
+    padding: 100px 0px;
+}
+
+.marquee-section {
+    display: flex;
+    margin-right: 50px;
+}
+
+.marquee-section-inner-section-left {
+    width: 20%;
+    margin-right: 50px;
+}
+
+.marquee-container .overlay {
+    --gradient-color: rgba (255, 255, 255, 0), rgba(255, 255, 255, 0) !important;
+}
+
+.marquee-container .marquee {
+    --duration: 230.375s !important;
+}
+.our-result-home.nnn .marquee-container .marquee { 
+    --duration: 50.375s !important;
+
+}
+
+.track-your-college.home-page-new.man {
+    padding-top: 0px;
+}
+
+.marquee-section-inner-section-left:last-child {
+    margin-right: 0%;
+}
+
+.marquee-section-inner-section-left img {
+    width: 100%;
+}
+
+.marquee-section-inner-section-botton-img img {
+    width: 90%;
+    margin: 0 auto;
+    display: table;
+}
+
+.marquee-section-inner-section {
+    position: relative;
+}
+
+.marquee-section-inner-section .marquee-section-inner-section-back {
+    position: absolute;
+    top: 3px;
+    width: 94%;
+    height: 97%;
+    background: #00000063;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    left: 3%;
+}
+
+.marquee-section-inner-section img {
+    border-radius: 10px;
+}
+
+.marquee-section-inner-section-back-inner {
+    position: absolute;
+    color: #fff;
+    z-index: 999;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.marquee-section-inner-section-back-inner .marquee-section-inner-section-back-inner-cont {
+    display: grid;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: Cinzel-Regular;
+    font-size: 60px;
+}
+
+.what-we-do-section-page {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.what-we-do-section-page .what-we-do-section-page-left {
+    width: 50%;
+}
+
+.what-we-do-section-page .what-we-do-section-page-right {
+    width: 50%;
+    background: #08313a;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.what-we-do-section-page-right-middle {
+    width: 100%;
+}
+
+.what-we-do-section-page .what-we-do-section-page-right .why-choese-us-home-page-heading {
+    text-align: left;
+}
+
+.what-we-do-section-page .what-we-do-section-page-right .why-choese-us-home-page-heading h3 {
+    color: #adcf62;
+}
+
+.what-we-do-section-page .what-we-do-section-page-right .why-choese-us-home-page-heading h2 {
+    color: #fff;
+}
+
+.what-we-do-section-page ul {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.what-we-do-section-page ul li {
+    width: 33%;
+}
+
+.what-we-do-section-page ul li .what-we-do-image-frame {}
+
+.what-we-do-section-page ul li .what-we-do-image-frame img {
+    margin-bottom: 20px;
+    width: 50px;
+}
+
+.track-your-college-right-img.video {
+    display: inherit;
+    width: 101%;
+    overflow: hidden;
+}
+
+.track-your-college-right-img.video video {
+    width: 102%;
+    margin-left: -1%;
+
+}
+
+.track-your-college-right-img-video-2 {}
+
+.what-we-do-section-page ul li .what-we-do-image-frame p {
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.what-we-do-section-page .footer-top-map-img-button-link {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.what-we-do-section-page .footer-top-map-img-button {
+    text-align: left;
+    margin-top: 35px;
+}
+
+.what-we-do-section-page-left {}
+
+.what-we-do-section-page-left ul {
+    display: inline;
+
+}
+
+.what-we-do-section-page-left ul li {
+    width: 23%;
+    margin-right: 2%;
+    position: relative;
+    float: left;
+    margin-bottom: 0px;
+    transition: transform 0.6s;
+    width: 23%;
+}
+
+.what-we-do-section-page-left ul li:nth-child(9) {
+    margin-bottom: 0px;
+}
+
+.what-we-do-section-page-left ul li:nth-child(10) {
+    margin-bottom: 0px;
+}
+
+.what-we-do-section-page-left ul li:nth-child(11) {
+    margin-bottom: 0px;
+}
+
+.what-we-do-section-page-left ul li:nth-child(12) {
+    margin-bottom: 0px;
+}
+
+.what-we-do-section-page-left ul li img {
+    width: 100%;
+
+}
+
+.what-we-do-section-page-left ul li .what-we-do-section-page-left-hever {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    background: #107869;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    display: none;
+
+}
+
+.what-we-do-section-page-left ul li .what-we-do-section-page-left-hever p {
+    color: #fff;
+    font-family: CrimsonPro-Light;
+    font-size: 18px;
+}
+
+.what-we-do-section-page-left ul li:hover .what-we-do-section-page-left-hever {
+    display: grid;
+}
+
+.student-top-collage-section-us-uk .container-- {
+    display: flex;
+    padding-top: 100px;
+}
+
+.student-top-collage-section-us-uk .student-top-collage-section-us-uk-left {
+    width: 40%;
+    padding-left: 4%;
+}
+
+.student-top-collage-section-us-uk .student-top-collage-section-us-uk-right {
+    width: 57%;
+    margin-left: 3%;
+}
+
+.student-top-collage-section-us-uk .why-choese-us-home-page-heading {
+    text-align: left;
+}
+
+.student-top-collage-section-us-uk-left-tow {
+    position: relative;
+}
+
+.student-top-collage-section-us-uk-left-tow .student-top-collage-section-us-uk-left-tow-border {
+    border-left: 3px solid #adcf62;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    left: 32px;
+}
+
+.student-top-collage-section-us-uk-left-tow ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.student-top-collage-section-us-uk-left-tow ul li {
+    margin-bottom: 40px;
+}
+
+.student-top-collage-section-us-uk-left-tow ul li .Personalizedstudent-top-collage {
+    display: flex;
+    align-items: center;
+}
+
+.student-top-collage-section-us-uk-left-tow ul li img {
+    z-index: 999;
+}
+
+.student-top-collage-section-us-uk-left-tow ul li p {
+    margin-bottom: 0px;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.student-top-collage-section-us-uk-lef-three p {}
+
+.student-top-collage-section-us-uk-lef-three p span {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+}
+
+.student-top-collage-section-us-uk-right-botton img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.student-top-collage-section-us-uk .student-top-collage-section-us-uk-right-top p span {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+
+}
+
+.student-top-collage-section-us-uk .student-top-collage-section-us-uk-right-top {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.student-top-collage-section-us-uk-right-middle {
+    background: #fff;
+    position: relative;
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: -90px;
+}
+
+.student-top-collage-section-us-uk-right-middle ul {
+    padding: 0px;
+    list-style-type: none;
+    background: #107869;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    padding: 30px 0px;
+    margin-bottom: 0px;
+}
+
+.student-top-collage-section-us-uk-right-middle ul li {
+    border-right: 1px solid #adcf62;
+    width: 33%;
+    text-align: center;
+}
+
+.student-top-collage-section-us-uk-right-middle ul li:last-child {
+    border-right: 0px solid #adcf62;
+}
+
+.student-top-collage-section-us-uk-right-middle ul li h4 {
+    font-family: Cinzel-Regular;
+    color: #fff;
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.student-top-collage-section-us-uk-right-middle ul li p {
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.react-multi-carousel-item--active~.react-multi-carousel-item--active .TESTIMONIALS-list-main-home {
+    background-color: #08313a;
+}
+
+.second-banner-changehover-right-img {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.second-banner-changehover-right-img .react-tabs__tab--selected {
+    border-radius: initial;
+    border: 0px !important;
+    padding: 0px;
+}
+
+.second-banner-changehover-right-img .react-tabs__tab-list {
+    border-bottom: 0px;
+    margin: 0 0 0px;
+}
+
+.second-banner-changehover-right-img-inner {
+    width: 100%;
+}
+
+.second-banner-changehover-right-img-inner.one {
+    display: inline-block;
+}
+
+.student-list-banner {
+    position: absolute;
+    bottom: 19%;
+    background: #fff;
+    left: 12%;
+    border-radius: 12px;
+    padding: 0px 20px;
+}
+
+.student-list-banner ul {
+    padding: 17px 28px;
+    list-style-type: none;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.student-list-banner ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.student-list-banner ul li:last-child {
+    margin-right: 0px;
+}
+
+.student-list-banner ul li a {}
+
+.student-list-banner ul li a:focus {
+    outline: 0;
+}
+
+.student-list-banner .react-tabs__tab img {
+    float: none;
+    width: 50px;
+}
+
+.student-list-banner .react-tabs__tab {
+    padding: 9px 8px;
+    bottom: 0px;
+}
+
+.second-banner-changehover-right-img img {
+    width: 65%;
+    float: right;
+}
+
+.second-banner-changehover-right-img-cont {
+    position: absolute;
+    bottom: 1%;
+    text-align: right;
+    width: 42%;
+    left: 0%;
+}
+
+.second-banner-changehover-right-img-cont p {
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.second-banner-changehover-right-img-cont h4 {
+    font-size: 24px;
+    color: #107869;
+    font-family: CrimsonPro-Regular;
+}
+
+.mobile-menu-header {
+    display: none;
+}
+
+.video-background-banner-new {
+    background-color: #00000096;
+    position: absolute;
+    top: 0px;
+    z-index: 999999999;
+    bottom: 0px;
+    height: 99%;
+    width: 100%;
+}
+
+.footer-top-map-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.what-we-do-section-page-left ul li .flip-box {
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.what-we-do-section-page-left ul li .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.what-we-do-section-page-left ul li .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.what-we-do-section-page-left ul li .flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.what-we-do-section-page-left ul li .flip-box-front {
+    cursor: pointer;
+    position: relative;
+}
+
+/* Style the back side */
+.what-we-do-section-page-left ul li .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: #fff;
+    transform: rotateY(180deg);
+    top: 0px;
+    display: grid;
+    align-items: center;
+
+}
+
+.what-we-do-section-page-left ul li .flip-box-back p {
+    color: #fff;
+    font-family: CrimsonPro-Light;
+    font-size: 18px;
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.what-we-do-section-page-left ul li .flip-box-back p span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #107869;
+    width: 100%;
+    margin-bottom: 0%;
+    border-bottom: 15px solid #fff;
+}
+
+.what-we-do-section-page-left ul li .flip-box-back p:last-child span {
+    border-bottom: 0px solid #fff;
+}
+
+.what-we-do-section-page-left ul li .flip-box-front img {
+    margin-bottom: 15px;
+}
+
+.what-we-do-section-page-left ul li .flip-box-front img:last-child {
+    margin-bottom: 0px;
+}
+
+.instagram-page-scol {
+    margin-bottom: 70px;
+}
+
+.instagram-page-scol ul {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-page-scol ul li {
+    margin-right: 22px;
+}
+
+.instagram-page-scol ul li:last-child {
+    margin-right: 0px;
+}
+
+.instagram-page-scol ul li img {
+    width: 28px;
+}
+
+.instagram-page-scol ul li a {}
+
+.instagram-main-frame .react-multi-carousel-item {
+    margin-right: 15px;
+}
+
+.instagram-main-frame .react-multi-carousel-item img {
+    width: 100%;
+}
+
+.upcomming-event {
+    padding-top: 100px;
+}
+
+.home-page-para-heading h3 {
+    color: #106268;
+    font-family: LeagueSpartan-Bold;
+    font-size: 18px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.home-event-section-page {
+    display: flex;
+}
+
+.home-event-section-page-left {
+    width: 42%;
+    margin-right: 8%;
+    display: none;
+}
+
+.home-event-section-page-right {
+    width: 100%;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.home-page-para-heading h2 {
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 60px;
+}
+
+.event-left-section {
+    display: flex;
+    background: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.event-left-section:hover {
+    background: #107869;
+}
+
+.event-left-section:hover .event-left-section-right h4 {
+    color: #adcf62;
+}
+
+.event-left-section:hover ul.event-home-top-list li span {
+    color: #fff;
+}
+
+ul.event-home-top-list li img.white {
+    display: none;
+}
+
+.event-left-section:hover ul.event-home-top-list li img.white {
+    display: inline;
+}
+
+.event-left-section:hover ul.event-home-top-list li img.normal {
+    display: none;
+}
+
+.event-left-section-left img {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.banner-text-middle-in-ll {
+    visibility: hidden;
+}
+
+.event-left-section-right h4 {
+    color: #106268;
+    font-family: LeagueSpartan-Bold;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+ul.event-home-top-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+.event-left-section-right {
+    margin-left: 30px;
+}
+
+ul.event-home-top-list li {
+    margin-right: 25px;
+}
+
+ul.event-home-top-list li img {
+    width: 14px;
+    margin-right: 10px;
+}
+
+ul.event-home-top-list li span {
+    color: #141414;
+}
+
+ul.event-home-top-list:last-child {
+    margin-bottom: 0px;
+}
+
+.home-page-logo-media-frame {}
+
+.home-page-logo-media-frame ul {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+}
+
+.home-page-logo-media-frame ul li {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.home-page-logo-media-frame ul li img {}
+
+.recent-acceptance-home-frame {
+
+    background-color: #0c514f;
+    padding: 70px 0px 100px 0px;
+    margin-top: -6px;
+}
+
+.slider-banner .slick-next {
+    right: 2%;
+}
+
+.slider-banner .slick-prev:before,
+.slick-next:before {
+    font-size: 30px;
+    color: #fff;
+}
+
+.admissions-tab-frame.track-your-college.collage-type{
+    margin-top: 0px;
+}
+
+.slider-banner .slick-prev {
+    left: 2%;
+    z-index: 999;
+}
+
+.recent-acceptance-home-frame h2 {
+    color: #fff;
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 46px;
+    line-height: 46px;
+    text-align: center;
+}
+.recent-acceptance-home-frame h1 {
+    color: #fff;
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 46px;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 0px;   
+}
+
+.recent-home-number-main .number-recent-home h2 {
+    font-family: Cinzel-Regular;
+    color: #fff;
+    font-size: 55px;
+    margin-top: -27px;
+    display: inline-block;
+    background: #0c514f;
+    width: 75%;
+}
+
+.number-recent-home {
+    text-align: center;
+}
+
+.number-recent-home-img {
+    text-align: center;
+    margin-top: 0px;
+    background: #fff;
+    padding: 5px 0px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.number-recent-home-img img{
+    width: 100%;
+}
+
+.recent-home-number-main {
+
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 70px;
+
+}
+
+.recent-acceptance-home-frame .react-multiple-carousel__arrow {
+    background: #85a3a4;
+    min-width: 30px;
+    min-height: 30px;
+    top: 60%;
+}
+
+.recent-acceptance-home-frame .react-multiple-carousel__arrow::before {
+    font-size: 10px;
+    color: #000;
+}
+
+.recent-acceptance-home-frame .react-multi-carousel-track {
+
+    margin: 0 auto;
+}
+
+.recent-acceptance-home-frame .react-multiple-carousel__arrow--right {
+    right: calc(0% + 1px);
+}
+
+.recent-acceptance-home-frame .react-multiple-carousel__arrow--left {
+    left: calc(0% + 1px);
+}
+
+header .sticky {
+    background: #fff;
+    z-index: 09999999;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    padding-bottom: 5px;
+}
+
+header .sticky .right-top-bar {
+    display: none;
+}
+
+header .sticky .header-logo img {
+    width: 100%;
+}
+header .sticky .header-logo {
+    margin-top: 0px;
+}
+header .sticky .header-logo a {
+    display: inline-block;
+    padding: 24px 0px 19px 0px;
+}
+.in-the-news-add-page .marquee-container .marquee {
+    --duration: 25.375s !important;
+}
+
+
+/* pmp Profile page */
+
+.pmp-profile-page .second-banner-changehover-left h3 {
+    color: #107869;
+}
+
+.heading-contact-middle {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.heading-contact-middle ul {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.heading-contact-middle ul li {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    margin-bottom: 10px;
+}
+
+.heading-contact-middle h3 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.heading-contact-middle h2 {
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 46px;
+    line-height: 46px;
+    margin-top: 0px;
+}
+
+.heading-contact-middle p {
+    margin-top: 70px;
+}
+
+.tab-pmp-profilr .accordion__button h3 {
+    color: #08313a;
+    font-size: 26px;
+    font-family: CrimsonPro-ExtraLight;
+    margin-top: 0px;
+    text-transform: uppercase;
+
+}
+
+.tab-pmp-profilr .accordion__button p {
+    margin-bottom: 0px;
+}
+
+.tab-pmp-profilr .accordion__heading {
+    margin: 0 auto;
+    width: 650px;
+}
+
+.tab-pmp-profilr .accordion__button {
+    text-align: center;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    background: #fff;
+    border: 0px;
+
+    border-radius: 5px;
+    position: relative;
+
+
+}
+
+.tab-pmp-profilr .accordion__item {
+    margin-bottom: 100px;
+}
+
+.tab-pmp-profilr .accordion {
+    border: 0px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+}
+
+.tab-pmp-profilr .accordion__item+.accordion__item {
+    border-top: 0px solid rgba(0, 0, 0, 0.1);
+}
+
+.tab-pmp-profilr .accordion__button:hover {
+    background-color: #08313a;
+    color: #fff;
+}
+
+.tab-pmp-profilr .accordion__button:hover h3 {
+    color: #fff;
+}
+
+.tab-pmp-profilr .accordion__button:hover p {
+    color: #fff;
+}
+
+.tab-pmp-profilr .accordion__button p {}
+
+.pmp-profile-page-middle-section.container {}
+
+.pmp-profile-page-middle-section.container .accordion__button:before {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+
+.tab-pmp-profilr .student-top-collage-section-us-uk-left-tow-border {
+    border-left: 3px solid #adcf62;
+    position: absolute;
+    top: 0px;
+    height: 97%;
+    left: 50%;
+}
+
+.tab-pmp-profilr {
+    position: relative;
+}
+
+.tab-first-frame {
+    display: flex;
+    padding-top: 100px;
+}
+
+.tab-first-frame .tab-first-frame-middle {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    background: #fff;
+    z-index: 999;
+    padding: 25px 28px;
+    width: 33%;
+    margin-right: 8%;
+    border-radius: 5px;
+}
+
+.tab-first-frame .tab-first-frame-middle:last-child {
+    margin-right: 0%;
+}
+
+.tab-first-frame .tab-first-frame-middle h4 {
+    color: #107869;
+    font-size: 24px;
+    font-family: LeagueSpartan-Bold;
+    min-height: 80px;
+}
+
+.tab-first-frame .tab-first-frame-middle p {
+    margin-top: 20px;
+}
+
+.tab-first-frame .tab-first-frame-middle .tab-border {
+    border-top: 4px solid #107869;
+    width: 65px;
+    margin-top: 25px;
+}
+
+.tab-first-frame:before {
+    content: "";
+    display: block;
+    width: 85%;
+    /* background-color: #e1e1e1; */
+    position: absolute;
+    height: 100%;
+    border: 3px solid #adcf62;
+    top: 40px;
+    left: 8%;
+}
+
+.tab-pmp-profilr .accordion__panel {
+    position: relative;
+}
+
+.tab-first-frame.second .tab-first-frame-middle {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tab-first-frame.second {
+    width: 55%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tab-first-frame.second .tab-first-frame-middle p {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.pmp-profiledr-ul-list {
+    display: flex;
+    margin-top: 40px;
+}
+
+.pmp-profiledr-ul-list ul {
+    width: 50%;
+}
+
+.pmp-profiledr-ul-list ul li {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    line-height: 30px;
+    list-style: none;
+}
+
+.pmp-profiledr-ul-list ul li::before {
+    content: "\2022";
+    color: #adcf62;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.tab-first-frame.three {
+    display: flow-root;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tab-first-frame.three .tab-first-frame-middle:nth-child(1) {}
+
+.tab-first-frame.three .tab-first-frame-middle:nth-child(2) {
+
+    margin-right: 0%;
+}
+
+.tab-first-frame.three .tab-first-frame-middle:nth-child(3) {}
+
+.tab-first-frame.three .tab-first-frame-middle:nth-child(4) {
+
+    margin-right: 0%;
+}
+
+.tab-first-frame:before {
+    z-index: -9;
+    width: 80%;
+    left: 10%;
+}
+
+.tab-first-frame.three .main-n {
+    margin-bottom: 70px;
+    display: flex;
+    width: 100%;
+    align-items: inherit;
+    justify-content: space-between;
+}
+
+.tab-first-frame.three .tab-first-frame-middle h4 {
+    min-height: auto;
+}
+
+.tab-first-frame.three .main-n:last-child {
+    margin-bottom: 0px;
+}
+
+.tab-first-frame.three.four .tab-first-frame-middle {
+    width: 40%;
+}
+
+.tab-first-frame.three.four {
+    width: 65%;
+}
+
+.tab-first-frame.three.four:before {
+    border-bottom: 0px;
+    z-index: -9;
+    width: 50%;
+    left: 25%;
+    height: 79%;
+    top: 10%;
+    background: #fff;
+}
+
+.tab-first-frame.three.four .main-n {
+    background: #fff;
+}
+
+.tab-first-frame.second:before {
+    border: 0px;
+}
+
+.tab-first-frame.three:before {
+    height: 50%;
+    top: 32%;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.tab-first-frame.three.four:before {
+    border-left: 3px solid #adcf62;
+    border-right: 3px solid #adcf62;
+}
+
+.tab-pmp-profilr .accordion__button[aria-expanded="true"] {
+    background-color: #08313a !important;
+    color: #fff !important;
+}
+
+.tab-pmp-profilr .accordion__button[aria-expanded="true"] p {
+    color: #fff !important;
+}
+
+.tab-pmp-profilr .accordion__button[aria-expanded="true"] h3 {
+    color: #fff !important;
+}
+
+.tab-pmp-profilr .accordion__button:before {
+    background: url(../img/arrow_circle1.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    margin-right: 0px;
+    border-bottom: 0px solid currentColor;
+    border-right: 0px solid currentColor;
+    transform: rotate(-0deg);
+}
+
+.tab-pmp-profilr .accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+    background: url(../img/arrow_circle2.png) !important;
+    transform: rotate(0deg);
+    background-size: 25px !important;
+    background-repeat: no-repeat !important;
+
+}
+
+.tab-pmp-profilr .accordion__heading:hover .accordion__button:before {
+    background: url(../img/arrow_circle3.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.tab-pmp-profilr .accordion__item a {
+    text-decoration: none !important;
+}
+
+
+/* 12th-grade page */
+.pmp-profile-page-middle-section.container.th-grade .heading-contact-middle p {
+    margin-top: 55px;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .tab-pmp-profilr .accordion__button {
+    text-align: left;
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 23px;
+    padding: 21px 18px;
+    border-radius: 0px;
+    border-bottom: 1px solid #cccccc69;
+    box-shadow: initial;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .tab-pmp-profilr .accordion__item {
+    margin-bottom: 0px;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .heading-contact-middle {
+    padding-bottom: 70px;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .tab-pmp-profilr .accordion__heading {
+    width: 100%;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .tab-pmp-profilr {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .tab-pmp-profilr .accordion__panel {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .th-grade-tab-open-frame {
+    display: flex;
+    align-items: center;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .th-grade-tab-open-frame .th-grade-tab-open-frame-left {
+    width: 21%;
+    margin-right: 9%;
+    display: none;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .th-grade-tab-open-frame .th-grade-tab-open-frame-left img {
+    width: 100%;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .th-grade-tab-open-frame .th-grade-tab-open-frame-right p {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .th-grade-tab-open-frame .th-grade-tab-open-frame-right {
+    width: 100%;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .tab-pmp-profilr .accordion__button[aria-expanded="true"] {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.track-your-college.bthgrade {}
+
+.track-your-college.bthgrade .Growth-Mindset-frame-middle .Growth-Mindset-frame-img {
+    position: absolute;
+    left: -49px;
+    top: 28%;
+}
+
+.track-your-college.bthgrade .Growth-Mindset-frame-middle .Growth-Mindset-frame-img img {
+    width: 50px;
+}
+
+.track-your-college.bthgrade .Growth-Mindset-frame-middle {
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-word;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.track-your-college.bthgrade .Growth-Mindset-frame-middle h4 {
+    font-family: CrimsonPro-Light;
+    color: #107869;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.track-your-college.bthgrade .Growth-Mindset-frame-middle p {}
+
+.track-your-college.bthgrade .Growth-Mindset-frame-middle p span {
+    font-weight: bold;
+    display: block;
+}
+
+.Growth-Mindset-frame-middleOne {
+    width: 27%;
+    position: relative;
+    border: 2px solid #899da1b8;
+    margin-top: 90px;
+    margin-right: 9%;
+    padding: 30px 40px;
+}
+
+.Growth-Mindset-frame-middleOne:nth-child(3) {
+    margin-right: 0px;
+}
+
+.Growth-Mindset-frame-middleOne:nth-child(5) {
+    margin-right: 0px;
+}
+
+.Growth-Mindset-frame-middleOne:nth-child(2) .Growth-Mindset-frame-img {
+    left: -50px !important;
+}
+
+.Growth-Mindset-frame-middleOne:nth-child(2) .Growth-Mindset-frame-img img {
+    width: 75px !important;
+}
+
+.Growth-Mindset-frame-middleOne:nth-child(3) .Growth-Mindset-frame-img {
+    left: -40px !important;
+}
+
+.Growth-Mindset-frame-middleOne:nth-child(3) .Growth-Mindset-frame-img img {
+    width: 70px !important;
+}
+
+.Growth-Mindset-frame-middleOne:nth-child(4) .Growth-Mindset-frame-img {
+    left: -50px !important;
+}
+
+.Growth-Mindset-frame-middleOne:nth-child(4) .Growth-Mindset-frame-img img {
+    width: 70px !important;
+}
+
+.Growth-Mindset-frame-middleOne:nth-child(5) .Growth-Mindset-frame-img {
+    left: -39px !important;
+}
+
+.Growth-Mindset-frame-middleOne:nth-child(5) .Growth-Mindset-frame-img img {
+    width: 70px !important;
+}
+
+.grade-add-design-frame .second-banner-changehover-left2 h3 {
+    margin-bottom: 0px;
+}
+
+.grade-add-design-frame .second-banner-changehover-left2 h2 {
+    margin-top: 0px;
+}
+
+.grade-add-design-frame .second-banner-changehover-left2 p {
+    margin-top: 40px;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .heading-contact-middle h3 {
+    margin-bottom: 0px;
+}
+
+.pmp-profile-page-middle-section.container.th-grade .heading-contact-middle h2 {
+    margin-top: 10px;
+}
+
+.track-your-college.bthgrade .track-your-college-left h2 {
+    margin-top: 0px;
+}
+
+/* How to apply page */
+.how-top-chose-a-oprtiom-middle-frame {
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-word;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.how-top-chose-a-oprtiom-middle-frame .how-top-chose-a-oprtiom-middle-frame-middle {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    background: #fff;
+    width: 22%;
+    border-radius: 5px;
+    position: relative;
+    padding: 35px;
+    margin-right: 4%;
+}
+
+.how-top-chose-a-oprtiom-middle-frame .how-top-chose-a-oprtiom-middle-frame-middle p {
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.how-top-chose-a-oprtiom-middle-frame .how-top-chose-a-oprtiom-middle-frame-middle p span {
+    color: #107869;
+    font-family: LeagueSpartan-Bold;
+}
+
+.how-top-chose-a-oprtiom-middle-frame .how-top-chose-a-oprtiom-middle-frame-middle img {
+    width: 55px;
+}
+
+.how-top-chose-a-oprtiom-middle-frame .how-top-chose-a-oprtiom-middle-frame-middle .border-apply-page {
+    border-bottom: 4px solid #107869;
+    margin-top: 30px;
+    width: 30%;
+}
+
+.how-top-chose-a-oprtiom-middle-frame .how-top-chose-a-oprtiom-middle-frame-middle:last-child {
+    margin-right: 0px;
+}
+
+.what-we-do-section-page .what-we-do-section-page-right .why-choese-us-home-page-heading p.how-top-app {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.what-we-do-section-page.how-to-apply ul li {
+    width: 18%;
+}
+
+.what-we-do-section-page.how-to-apply .what-we-do-section-page-left ul li img {}
+
+.what-we-do-section-page.how-to-apply .what-we-do-section-page-left ul li .flip-box-inner {
+    transition: inherit !important;
+    transform-style: inherit !important;
+}
+
+.what-we-do-section-page.how-to-apply .what-we-do-section-page-left ul li .flip-box-inner .flip-box-front {
+    cursor: inherit;
+}
+
+.what-we-do-section-page-right.how-to-apply-page {
+    padding: 20px 70px;
+}
+
+.what-we-do-section-page-right.how-to-apply-page .what-we-do-section-page-right-middle {
+    padding-right: 30px;
+}
+
+.how-top-apply-page-last-student-section {
+    position: relative;
+}
+
+.how-top-apply-page-last-student-section img {
+    width: 100%;
+}
+
+.how-top-apply-page-last-student-section .how-top-apply-page-last-student-section-inner-main {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.how-top-apply-page-last-student-section .how-top-apply-page-last-student-section-inner-main .container {
+    height: 100%;
+}
+
+.how-top-apply-page-last-student-section .how-top-apply-page-last-student-section-inner {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.how-top-apply-page-last-student-section .how-top-apply-page-last-student-section-inner p {
+    font-size: 24px;
+
+}
+
+.how-top-apply-page-last-student-section .how-top-apply-page-last-student-section-inner p span {
+    color: #107869;
+    font-size: 36px;
+    font-family: CrimsonPro-Regular;
+    line-height: 33px;
+}
+
+.how-top-apply-page-last-student-section .how-top-apply-page-last-student-section-inner .footer-top-map-img-button {
+    text-align: left;
+    margin-top: 45px;
+}
+
+.how-top-apply-page-last-student-section .how-top-apply-page-last-student-section-inner h4 {
+    font-family: CrimsonPro-Regular;
+    font-size: 30px;
+    color: #08313a;
+    margin-top: 25px;
+}
+
+.how-top-apply-page-last-student-section .how-top-apply-page-last-student-section-inner .how-top-apply-page-last-student-section-inner-border {
+    border-bottom: 4px solid #107869;
+    margin-top: 40px;
+    width: 30%;
+
+}
+
+.our-approach-page h2 {
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 46px;
+    line-height: 46px;
+    margin-top: 0px;
+}
+
+.our-approach-page {
+    padding-top: 100px;
+}
+
+.what-we-do-section-page.how-to-apply {
+    margin-bottom: 0px;
+}
+
+.our-approach-page .our-approach-page-inner-frame p {
+    margin-top: 20px;
+}
+
+.our-approach-page .our-approach-page-inner-frame h4 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.our-approach-page .our-approach-page-inner-frame img {
+    width: 150px;
+    position: relative;
+    margin-top: -116px;
+}
+
+.our-approach-page .our-approach-page-inner {
+    display: flex;
+    margin-top: 150px;
+}
+
+.our-approach-page .our-approach-page-inner-frame {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    background: #fff;
+    width: 29%;
+    border-radius: 10px;
+    position: relative;
+    padding: 35px;
+    margin-right: 6%;
+}
+
+.our-approach-page .our-approach-page-inner-frame:last-child {
+    margin-right: 0%;
+}
+
+.Academic-roadmap-main-frame {
+    display: flex;
+    margin-top: 50px;
+}
+
+.Academic-roadmap-main-frame-middle {
+    display: flex;
+    width: 46%;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    background: #fff;
+    border-radius: 10px;
+    margin-right: 8%;
+}
+
+.Academic-roadmap-main-frame-middle:last-child {
+    margin-right: 0px;
+}
+
+.Academic-roadmap-main-frame-middle .Academic-roadmap-main-frame-middle-left {
+    padding: 40px 25px;
+    width: 75%;
+}
+
+.Academic-roadmap-main-frame-middle .Academic-roadmap-main-frame-middle-right {
+    width: 25%;
+    background: #08313a;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Academic-roadmap-main-frame-middle-right-img {
+    width: 100%;
+    text-align: center;
+}
+
+.Academic-roadmap-main-frame-middle .Academic-roadmap-main-frame-middle-left h4 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.Academic-roadmap-main-frame-middle .Academic-roadmap-main-frame-middle-left p {
+    margin-top: 20px;
+}
+
+.Academic-roadmap-main-frame-middle .Academic-roadmap-main-frame-middle-left .Academic-roadmap-main-frame-middle-left-border {
+    border-bottom: 4px solid #107869;
+    margin-top: 25px;
+    width: 78px;
+}
+
+.our-program-how-to-apply.track-your-college .footer-top-map-img-button {
+    margin-top: 80px;
+}
+
+.second-banner-changehover-left2.how-to-apply h3 {
+    margin-bottom: 0px;
+}
+
+.second-banner-changehover-left2.how-to-apply h2 {
+    margin-top: 0px;
+}
+
+.second-banner-changehover-left2.how-to-apply p:nth-child(3) {
+    margin-top: 35px;
+}
+
+.second-banner-changehover-left2.how-to-apply p:nth-child(4) {
+    margin-top: 30px;
+}
+
+.track-your-college.bthgrade.how-to-apply .track-your-college-left h2 {
+    margin-top: 0px;
+}
+
+.track-your-college.bthgrade.how-to-apply .track-your-college-left p {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.track-your-college.bthgrade.how-to-apply .Growth-Mindset-frame-middle h4 {
+    color: #141414;
+    font-family: CrimsonPro-ExtraLight;
+}
+
+.track-your-college.bthgrade.how-to-apply .Growth-Mindset-frame-middle h4 span {
+    color: #107869;
+    font-family: LeagueSpartan-Bold;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.how-top-chose-a-oprtiom.track-your-college {
+    padding-top: 0px;
+}
+
+.track-your-college.bthgrade.how-to-apply .Growth-Mindset-frame-middle {
+    margin-bottom: 0px;
+}
+
+.what-we-do-section-page.how-to-apply .why-choese-us-home-page-heading {
+    margin-bottom: 0px;
+}
+
+/* PMP student-journey page */
+.track-your-college.bthgrade.how-to-apply.student-journey .how-top-chose-a-oprtiom-middle-frame .how-top-chose-a-oprtiom-middle-frame-middle img {
+    width: 100%;
+}
+
+.track-your-college.bthgrade.how-to-apply.student-journey .how-top-chose-a-oprtiom-middle-frame .how-top-chose-a-oprtiom-middle-frame-middle {
+    padding: 0px 20px 20px 20px;
+}
+
+.track-your-college.bthgrade.how-to-apply.student-journey .how-top-chose-a-oprtiom-middle-frame .how-top-chose-a-oprtiom-middle-frame-middle p {
+    margin-top: 25px;
+}
+
+.track-your-college.bthgrade.how-to-apply.student-journey .how-top-chose-a-oprtiom-middle-frame .how-top-chose-a-oprtiom-middle-frame-middle .border-apply-page {
+    margin-top: 20px;
+}
+
+.admission-to-your-dream-university-frame {
+    background: #08313a;
+    padding: 17px 0px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.admission-to-your-dream-university-frame-middle {
+    display: flex;
+    align-items: center;
+}
+
+.admission-to-your-dream-university-frame-middle-left p {
+    font-size: 22px;
+    color: #fff;
+    margin: 0px;
+}
+
+.admission-to-your-dream-university-frame-middle-left p span {
+    color: #adcf62;
+    font-family: LeagueSpartan-SemiBold;
+    font-size: 20px;
+}
+
+.admission-to-your-dream-university-frame-middle-right.what-we-do-section-page {
+    margin: 0px;
+    width: 30%;
+}
+
+.admission-to-your-dream-university-frame-middle-right.what-we-do-section-page .footer-top-map-img-button {
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.admission-to-your-dream-university-frame-middle-left {
+    width: 70%;
+}
+
+.MoneyG-gif-frame {
+    margin-top: 60px;
+}
+
+.MoneyG-gif-frame img {
+    width: 100%;
+}
+
+.Profile-development-tab {
+    border-left: 4px solid #b3b3b3;
+    padding-left: 25px;
+}
+
+.react-tabs__tab.react-tabs__tab--selected .Profile-development-tab {
+    border-left: 4px solid #107869;
+}
+
+.Profile-development-tab h4 span {
+    font-family: LeagueSpartan-Bold;
+    color: #b3b3b3;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.react-tabs__tab.react-tabs__tab--selected .Profile-development-tab h4 span {
+    color: #107869;
+}
+
+.Profile-development-tab h4 img {
+    width: 30px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.react-tabs__tab.react-tabs__tab--selected .Profile-development-tab h4 img {
+    filter: inherit;
+    -webkit-filter: inherit;
+}
+
+.Profile-development-tab p {
+    color: #b3b3b3;
+    margin-top: 20px;
+}
+
+.react-tabs__tab.react-tabs__tab--selected .Profile-development-tab p {
+    color: #141414;
+
+}
+
+.studentjoun-frame-tab {
+    margin-top: 60px;
+}
+
+.studentjoun-frame-tab .react-tabs__tab-list {
+    border-bottom: 0px solid #aaa;
+    display: flex;
+}
+
+.studentjoun-frame-tab .react-tabs__tab {
+    border: 0px solid transparent;
+    margin-right: 5%;
+
+}
+
+.studentjoun-frame-tab .react-tabs__tab:last-child {
+    margin-right: 0%;
+}
+
+.Assess-tab-frame {
+    display: flex;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.Assess-tab-frame .Assess-tab-frame-middle {
+    width: 25%;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+    margin-right: 4%;
+    z-index: 999;
+}
+
+.Assess-tab-frame .Assess-tab-frame-middle:last-child {
+    margin-right: 0px;
+}
+
+.Assess-tab-frame .Assess-tab-frame-middle h4 span {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    top: 15px;
+}
+
+.Assess-tab-frame .Assess-tab-frame-middle h4 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.Assess-tab-frame .Assess-tab-frame-middle img {
+    width: 35px;
+    float: right;
+}
+
+.Assess-tab-frame .Assess-tab-frame-middle h5 {
+    color: #141414;
+    font-family: LeagueSpartan-Regular;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.Assess-tab-frame .Assess-tab-frame-middle ul {
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.Assess-tab-frame .Assess-tab-frame-middle ul li {
+    color: #141414;
+    font-family: LeagueSpartan-Light;
+    font-size: 18px;
+    list-style: none;
+}
+
+.Assess-tab-frame .Assess-tab-frame-middle ul li::before {
+    content: "\2022";
+    color: #107869;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.how-top-chose-a-oprtiom.track-your-college.student-jou {
+    padding-bottom: 0px;
+}
+
+.lean-more-bottom-tab-frame.admission-to-your-dream-university-frame-middle-right.what-we-do-section-page {
+    display: inline-block;
+    background: #08313a;
+    width: 100%;
+    padding-bottom: 70px;
+    padding-top: 290px;
+    position: relative;
+    margin-top: -219px;
+}
+
+/* ProfilePresentation page */
+.project-profile-development-frame {
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.project-profile-development-frame-left {
+    width: 45%;
+
+}
+
+.project-profile-development-frame-left-frame {
+    margin-right: 20px;
+    width: 48%;
+    float: left;
+}
+
+.project-profile-development-frame-left-frame img {
+    width: 100%;
+}
+
+.project-profile-development-frame-right-frame img {
+    width: 100%;
+}
+
+.project-profile-development-frame-right-frame {
+    width: 48%;
+    float: left;
+}
+
+.project-profile-development-frame-left-frame img:nth-child(2) {
+    margin-top: 15px;
+}
+
+.project-profile-development-frame-right {
+    width: 55%;
+}
+
+.project-profile-development-frame-right .heading-contact-middle {
+    text-align: left;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+
+.project-profile-development-frame-right .heading-contact-middle p {
+    margin-top: 40px;
+}
+
+.project-profile-development-bottom-ul-list {
+    display: flex;
+}
+
+.project-profile-development-bottom-ul-list ul {
+    width: 50%;
+    padding: 0px;
+    padding-left: 15px;
+}
+
+.project-profile-development-bottom-ul-list ul li {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    margin-bottom: 6px;
+}
+
+.project-profile-development-frame-right {
+    display: flex;
+    align-items: center;
+    padding: 0px 70px;
+}
+
+.profile-development-page .tab-first-frame.three:before {
+    top: 17%;
+}
+
+.profile-development-page .tab-first-frame.three.three-new:before {
+    top: 27%;
+}
+
+.tab-first-frame.new-four:before {
+    border-left: 3px solid #adcf62;
+    border-right: 3px solid #adcf62;
+    border-bottom: 0px;
+    z-index: -9;
+    width: 50%;
+    left: 25%;
+    height: 79%;
+    top: 10%;
+    background: #fff;
+}
+
+.profile-development-page .second-banner-changehover-left h2 {
+    margin-top: 0px;
+}
+
+.profile-development-page .second-banner-changehover-left h3 {
+    margin-bottom: 0px;
+}
+
+
+/* OurStudentSuccess-banner page */
+.OurStudentSuccess-bannernewpage .second-banner-changehover-left {
+    width: 100%;
+}
+
+.OurStudentSuccess-bannernewpage .grade-add-design-frame .second-banner-changehover-left2 h2 {
+    margin-bottom: 0px;
+}
+
+.pmp-profile-page-middle-section.container.our-student-success .heading-contact-middle h3 {
+    margin-bottom: 0px;
+}
+
+.STUDENTACCOLADES-sectuon-middle {
+    display: flex;
+}
+
+.STUDENTACCOLADES-sectuon-middle-left-inner {
+    display: flex;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    align-items: center;
+    position: relative;
+    padding: 25px;
+    width: 45%;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-bottom: 45px;
+}
+
+.STUDENTACCOLADES-sectuon-middle-left-inner-right {
+    padding-left: 20px;
+}
+
+.STUDENTACCOLADES-sectuon-middle-left-inner-right h5 {
+    font-family: LeagueSpartan-Bold;
+    font-size: 17px;
+    margin: 0px;
+}
+
+.STUDENTACCOLADES-sectuon-middle-left-inner-right h4 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.STUDENTACCOLADES-sectuon-middle-left-inner-right p {
+    margin-bottom: 0px;
+}
+
+.STUDENTACCOLADES-sectuon-middle-left-inner:before {
+    content: "";
+    display: block;
+    width: 0px;
+    position: absolute;
+    height: 75px;
+    border-left: 5px solid #107869;
+    top: 50px;
+    left: -3px;
+}
+
+.STUDENTACCOLADES-sectuon-middle .STUDENTACCOLADES-sectuon-middle-left-inner:last-child {
+    margin-right: 0px;
+}
+
+.our-student-success .heading-contact-middle {
+    padding-bottom: 60px;
+}
+
+.STUDENTACCOLADES-sectuon {
+    padding-bottom: 60px;
+}
+
+.how-top-apply-page-last-student-section.our-student-success {
+    margin-top: 100px;
+}
+
+.how-top-apply-page-last-student-section.our-student-success .how-top-apply-page-last-student-section-inner p span {
+    color: #0f7869;
+    font-family: CrimsonPro-Regular;
+    font-size: 30px;
+}
+
+.The-proud-accomplishments-frame {
+    background: #f4f4f4;
+    padding: 70px 0px;
+    margin-bottom: 110px;
+}
+
+.The-proud-accomplishments-frame .container {
+    position: relative;
+    margin-top: 25px;
+
+}
+
+.The-proud-accomplishments-frame-middle {
+    display: flex;
+    align-items: center;
+}
+
+.The-proud-accomplishments-frame-right-top-frame {
+    display: flex;
+    align-items: center;
+}
+
+.The-proud-accomplishments-frame-left {
+    width: 35%;
+    position: relative;
+    margin-right: 10%;
+
+}
+
+.The-proud-accomplishments-frame-left img {
+    position: absolute;
+    top: -250px;
+    left: 0px;
+    width: 100%;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+
+}
+
+.The-proud-accomplishments-frame-right {
+    width: 60%;
+}
+
+.The-proud-accomplishments-frame-right-top-frame-right h4 {
+    margin: 0px;
+    color: #107869;
+    font-family: CrimsonPro-Regular;
+    font-size: 24px;
+}
+
+.The-proud-accomplishments-frame-right-top-frame-right p {
+    padding-bottom: 0px;
+}
+
+.The-proud-accomplishments-frame-right-top-frame-left img {}
+
+.The-proud-accomplishments-frame-right-top-frame-right {
+    margin-left: 20px;
+}
+
+.The-proud-accomplishments-frame-right-top-frame-bottom {
+    margin-top: 45px;
+}
+
+.The-proud-accomplishments-frame-right-top-frame-bottom p {
+    padding-bottom: 0px;
+}
+
+.The-proud-accomplishments-framesec .The-proud-accomplishments-frame-left {
+    width: 35%;
+    position: relative;
+    margin-right: 0px;
+    margin-left: 10%;
+}
+
+
+/* admissions-results-scholarships */
+.STUDENTACCOLADES-sectuon.admissions-results-scholarships .STUDENTACCOLADES-sectuon-middle-left-inner {
+    padding-left: 0px;
+}
+
+.STUDENTACCOLADES-sectuon.admissions-results-scholarships .STUDENTACCOLADES-sectuon-middle-left-inner-right h4 {
+    font-family: CrimsonPro-Regular;
+}
+
+.STUDENTACCOLADES-sectuon.admissions-results-scholarships .STUDENTACCOLADES-sectuon-middle-left-inner:before {
+    border: 0px;
+}
+
+.STUDENTACCOLADES-sectuon.admissions-results-scholarships .STUDENTACCOLADES-sectuon-middle-left-inner-right {
+    padding-left: 35px;
+}
+
+.STUDENTACCOLADES-sectuon.admissions-results-scholarships {
+    padding-bottom: 0px;
+}
+
+/* admissions-calendar */
+.Undergraduate-Admissions-frame-middle-number {
+    margin-top: 45px;
+}
+
+.Undergraduate-Admissions-frame-middle-number h4 {
+    font-family: CrimsonPro-Light;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.Undergraduate-Admissions-frame-middle-number ul {
+    padding-left: 15px;
+}
+
+.Undergraduate-Admissions-frame-middle-number ul li {
+    list-style-type: none;
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.Undergraduate-Admissions-frame-middle-number ul li div {
+    display: inline-block;
+    width: 95%;
+    padding-left: 20px;
+}
+
+
+
+.Undergraduate-Admissions-frame-middle-number ul li::before {
+    content: "\2022";
+    color: #107869;
+    font-weight: bold;
+    display: inline-block;
+    width: 40px;
+    margin-left: -1em;
+    font-size: 23px;
+    position: absolute;
+    top: -3px;
+
+}
+
+.Undergraduate-Admissions-frame-middle-number ul.Important-dates li div {
+    padding-left: 20px;
+}
+
+.Undergraduate-Admissions-frame-middle-number ul li ul.You-have-applied li {
+    padding-left: 60px;
+    list-style-type: none;
+}
+
+.Undergraduate-Admissions-frame-middle-number ul li ul.You-have-applied li::before {
+    content: "\2022";
+    color: #107869;
+    font-weight: bold;
+    display: inline-block;
+    width: 40px;
+    margin-left: -1em;
+    font-size: 23px;
+
+}
+
+.Undergraduate-Admissions-frame-middle-number ul li span {
+    color: #107869;
+    font-weight: bold;
+}
+
+.Undergraduate-Admissions-frame-middle-number ul li ul li::before {
+    width: 10px;
+    content: initial;
+}
+
+.Undergraduate-Admissions-frame-middle-number ul li ul {
+    padding-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.Undergraduate-Admissions-frame-middle-number ul li ul li {
+    list-style-type: auto;
+    margin-bottom: 5px;
+}
+
+.Undergraduate-Admissions-frame-middle-number ul li ul li::marker {
+    padding-left: 10px;
+}
+
+.Undergraduate-Admissions-frame-middle-number ul li ul li span {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    font-weight: normal;
+    padding-left: 20px;
+    display: block;
+}
+
+.Undergraduate-Admissions-frame-middle {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.admissions-calendar-plz-note {
+    background: #107869;
+    padding: 50px 0px;
+    margin-top: 70px;
+}
+
+.admissions-calendar-plz-note-middel h4 {
+    font-family: LeagueSpartan-Bold;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0px;
+
+}
+
+.admissions-calendar-plz-note-middel ul {
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.admissions-calendar-plz-note-middel ul li {
+    list-style-type: none;
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #fff;
+}
+
+.admissions-calendar-plz-note-middel li::before {
+    content: "\2022";
+    color: #adcf62;
+    font-weight: bold;
+    display: inline-block;
+    width: 40px;
+    margin-left: -1em;
+    font-size: 20px;
+}
+
+.admissions-calendar-plz-note-middel {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* our-team-page page */
+.our-team-page .second-banner-changehover-left h2 {
+
+    margin-bottom: 0px;
+
+}
+
+.our-team-page .second-banner-changehover-left h3 {
+    margin-top: 0px;
+}
+
+.our-team-page .second-banner-changehover-left p {
+    margin-top: 50px;
+    line-height: 28px;
+}
+
+.team-top-frame {
+    width: 100%;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.team-left-frame-one {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.team-left-frame-one:last-child {
+    margin-right: 0%;
+}
+
+.team-left-frame-one-right {
+    padding-left: 35px;
+}
+
+.team-left-frame-one-right .team-top-border {
+    border-top: 4px solid #107869;
+    width: 55px;
+    margin-top: 25px;
+}
+
+.team-top-frame-main {
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+.our-team-middle-section {}
+
+.our-team-middle-section2 h4 {
+    font-family: LeagueSpartan-Bold;
+    color: #08313a;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.our-team-middle-section-frame {
+    align-items: inherit;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.our-team-middle-section-frame .our-team-middle-section-frame-left {
+    text-align: center;
+    width: 25%;
+    margin-bottom: 55px;
+}
+
+.our-team-middle-section-frame .our-team-middle-section-frame-left img {
+    margin-bottom: 30px;
+}
+
+.our-team-middle-section-frame .our-team-middle-section-frame-left h4 {
+    color: #107869;
+    margin-bottom: 10px;
+}
+
+.our-team-middle-section-frame .our-team-middle-section-frame-left p {
+    margin: 0px;
+}
+
+.our-team-middle-section-frame .our-team-middle-section-frame-left p span {
+    font-weight: 600;
+}
+
+.our-team-middle-section2 .footer-top-map-img-button {
+    margin-top: 0px;
+}
+
+.our-team-middle-section2 {
+    margin-bottom: 50px;
+}
+
+.our-team-middle-section2-main {
+    margin-top: 50px;
+}
+
+.our-team-middle-section .heading-contact-middle {
+    padding-bottom: 50px;
+}
+
+.our-team-middle-section .pmp-profile-page-middle-section.container {
+    margin-bottom: 70px;
+}
+
+.our-team-middle-section .th-grade-tab-open-frame .th-grade-tab-open-frame-right {
+    width: 100% !important;
+}
+
+/* what-we-do page */
+
+.what-we-do-top-section {}
+
+.what-we-do-top-section-top-middle {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.what-we-do-top-section-top-middle-left {
+    position: relative;
+    text-align: center;
+    width: 22%;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    background: #fff;
+    padding: 70px 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-right: 3%;
+    transition-duration: 0.4s;
+}
+
+.what-we-do-top-section-top-middle-left:hover {
+    background: #08313a;
+}
+
+.what-we-do-top-section-top-middle-left:hover p {
+    color: #fff;
+}
+
+.what-we-do-top-section-top-middle-left:nth-child(4) {
+    margin-right: 0%;
+}
+
+.what-we-do-top-section-top-middle-left p {
+    margin: 0px;
+}
+
+.what-we-do-top-section-top-middle-left .what-we-do-top-section-top-middle-left-border {
+    margin: 0 auto;
+    border-top: 5px solid #adcf62;
+    margin-top: 25px;
+    width: 70px;
+    position: absolute;
+    bottom: -3px;
+    left: 100px;
+}
+
+.what-we-do-top-section .track-your-college-left-link.text-center {
+    margin-top: 50px;
+}
+
+.project-profile-development-frame.what-we-do {
+    padding-bottom: 0px;
+    padding-top: 70px;
+}
+
+.project-profile-development-frame.what-we-do .project-profile-development-frame-right-frame {
+    width: 46%;
+}
+
+.project-profile-development-frame.what-we-do .project-profile-development-frame-left-frame {
+    width: 46%;
+}
+
+.Our-Brand-Promise-what-we-do-frame {
+    display: flex;
+    margin: 100px 0px;
+}
+
+.Our-Brand-Promise-what-we-do-frame-left {
+    position: relative;
+    width: 65%;
+}
+
+.Our-Brand-Promise-what-we-do-frame-left img {
+    width: 100%;
+}
+
+.Our-Brand-Promise-what-we-do-frame .Our-Brand-Promise-what-we-do-frame-left-right {
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 35%;
+}
+
+.Our-Brand-Promise-what-we-do-frame .what-we-do-section-page-right {
+    background: #08313a;
+    left: -40%;
+    padding: 50px 0 20px 60px;
+    position: absolute;
+    right: 0;
+    width: 140%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.Our-Brand-Promise-what-we-do-frame .why-choese-us-home-page-heading {
+    text-align: left;
+}
+
+.Our-Brand-Promise-what-we-do-frame .why-choese-us-home-page-heading h3 {
+    color: #adcf62;
+    margin-bottom: 0px;
+}
+
+.Our-Brand-Promise-what-we-do-frame .why-choese-us-home-page-heading h2 {
+    color: #fff;
+    margin-top: 0px;
+}
+
+.Our-Brand-Promise-what-we-do-frame .why-choese-us-home-page-heading p {
+    color: #fff;
+    margin-top: 50px;
+}
+
+.Our-Brand-Promise-what-we-do-frame .what-we-do-section-page-right-middle ul {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-word;
+}
+
+.Our-Brand-Promise-what-we-do-frame .what-we-do-section-page-right-middle ul li {
+    width: 28%;
+    margin-bottom: 15px;
+    margin-right: 5%;
+}
+
+.Our-Brand-Promise-what-we-do-frame .what-we-do-section-page-right-middle ul li p {
+    color: #fff;
+    margin-top: 8px;
+}
+
+.Our-Brand-Promise-what-we-do-frame .what-we-do-section-page-right-middle {
+    width: 85%;
+}
+
+
+/* admissions page */
+.track-your-college.admissions-page {
+    padding-bottom: 0px;
+}
+
+.track-your-college.admissions-page .track-your-college-left {
+    width: 85%;
+    margin-top: 5%;
+}
+
+.track-your-college.admissions-page .track-your-college-left h2 {
+    margin-top: 5px;
+}
+
+.track-your-college.admissions-page .track-your-college-left p {
+    margin-top: 60px;
+}
+
+.admissions-page .second-banner-changehover-left h3 {
+    margin-bottom: 0px;
+}
+
+.admissions-page .second-banner-changehover-left h2 {
+    margin-top: 0px;
+    line-height: 42px;
+}
+
+.admissions-page .heading-contact-middle img {
+    width: 90%;
+    margin-top: 50px;
+}
+
+.admissions-page .heading-contact-middle {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.admissions-tab-frame-middle {
+    margin-bottom: 70px;
+}
+
+.admissions-page .heading-contact-middle h2 {
+    margin-bottom: 50px;
+}
+
+.admissions-page .heading-contact-middle p {
+    margin-top: 0px;
+}
+
+.admissions-tab-frame .pmp-profile-page-middle-section.container.th-grade .tab-pmp-profilr .accordion__button {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border-bottom: 0px solid #cccccc69;
+    text-align: center;
+}
+
+.admissions-tab-frame .pmp-profile-page-middle-section.container.th-grade .th-grade-tab-open-frame .th-grade-tab-open-frame-right {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.admissions-tab-frame .tab-pmp-profilr .accordion__item {
+    margin-bottom: 70px !important;
+}
+
+.admissions-tab-frame .pmp-profile-page-middle-section.container.th-grade .tab-pmp-profilr .accordion__panel {
+    background: #fff;
+}
+
+.admissions-tab-frame .pmp-profile-page-middle-section.container.th-grade .tab-pmp-profilr .accordion__button {
+    padding: 25px 18px;
+}
+
+.admissions-tab-frame .pmp-profile-page-middle-section.container.th-grade .th-grade-tab-open-frame .th-grade-tab-open-frame-right p {
+    margin-bottom: 20px;
+}
+
+.admissions-tab-frame .pmp-profile-page-middle-section.container.th-grade .th-grade-tab-open-frame .th-grade-tab-open-frame-right ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.admissions-tab-frame-middle-top {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.admissions-tab-frame-middle-top .pmp-profile-page-middle-section.container.th-grade .tab-pmp-profilr {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.admissions-tab-frame .ad-last-line p {
+    font-family: LeagueSpartan-SemiBold;
+    color: #107869;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.admissions-page .tab-pmp-profilr .accordion__button::after {
+    background: url(../img/apply.png);
+    position: absolute;
+    left: 20px;
+    top: 26px;
+    display: inline-block;
+    content: '';
+    height: 40px;
+    width: 40px;
+    margin-right: 0px;
+    border-bottom: 0px solid currentColor;
+    border-right: 0px solid currentColor;
+    transform: rotate(-0deg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.admissions-page .tab-pmp-profilr .accordion__button[aria-expanded='true']::after {
+    background: url(../img/apply2.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.admissions-page.admissions-us .track-your-college.admissions-page {
+    padding-top: 0px;
+}
+
+.admissions-page.admissions-us .track-your-college.admissions-page .track-your-college-left {
+    margin-top: 60px;
+}
+
+
+/* admissions-canada page */
+.what-we-do-top-section.admissions-canada .what-we-do-top-section-top-middle-left {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.what-we-do-top-section.admissions-canada .what-we-do-top-section-top-middle-left:nth-last-child(3) {
+    margin-right: 0%;
+}
+
+.what-we-do-top-section.admissions-canada .what-we-do-top-section-top-middle-left:nth-child(4) {
+    margin-right: 3%;
+}
+
+.what-we-do-top-section.admissions-canada .what-we-do-top-section-top-middle {
+    justify-content: center;
+    align-items: center;
+}
+
+.what-we-do-top-section.admissions-canada .what-we-do-top-section-top-middle-left-border {
+    left: 130px;
+}
+
+.OUAC-Application-frame {
+    display: flex;
+    margin: 60px 0px;
+}
+
+.OUAC-Application-frame .OUAC-Application-frame-left {
+    width: 50%;
+}
+
+.OUAC-Application-frame .OUAC-Application-frame-right {
+    width: 50%;
+    text-align: right;
+}
+
+.OUAC-Application-frame .OUAC-Application-frame-left h5 {
+    color: #08313a;
+    font-family: CrimsonPro-Light;
+    font-size: 24px;
+}
+
+.OUAC-Application-frame .OUAC-Application-frame-right img {
+
+    margin-right: 15px;
+}
+
+.OUAC-Application-frame-admissions-canada-page .Undergraduate-Admissions-frame-middle-number {
+    margin-top: 0px;
+}
+
+.OUAC-Application-frame-admissions-canada-page .Undergraduate-Admissions-frame-middle-number p {
+    margin-bottom: 70px;
+}
+
+.OUAC-Application-frame-admissions-canada-page {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.OUAC-Application-frame-admissions-canada-page .Undergraduate-Admissions-frame-middle {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Ontario-region-colleges {}
+
+.Ontario-region-colleges h4 {
+    font-family: LeagueSpartan-SemiBold;
+    color: #107869;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 50px 0px;
+}
+
+.Ontario-region-colleges-middele-frame {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Ontario-region-colleges-middele-frame-two {
+    width: 25%;
+    margin-bottom: 25px;
+}
+
+.Ontario-region-colleges-middele-frame img {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    margin: 0 auto;
+    display: table;
+}
+.admissions-tab-frame-new-add .accordion__button::after{
+    background: transparent !important;
+}
+.admissions-tab-frame-new-add .accordion__button{
+    position: relative;
+}
+.admissions-tab-frame-new-add .icon-middle-tab-image img{
+    width: 30px;
+    position: absolute;
+    left: 30px;
+    top: 27px;
+}
+
+.ad-last-line-admissions-canada p {
+    font-family: LeagueSpartan-SemiBold;
+    color: #107869;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tab-section-inadmissions-top-colleges {}
+
+.tab-section-inadmissions-top-colleges .react-tabs__tab-list {
+    border-bottom: 0px solid #aaa;
+    display: flex;
+    align-items: center;
+}
+
+.heading-contact-middle .tab-section-inadmissions-top-colleges ul li {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    color: #107869;
+    font-family: LeagueSpartan-SemiBold;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 21px 45px;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+
+.tab-section-inadmissions-top-colleges .react-tabs__tab--selected {
+    border: 0px;
+    background: #08313a !important;
+    color: #fff !important;
+}
+
+.tab-section-inadmissions-top-colleges .container-mainadmissions-top-colleges {
+    background: #f4f4f4;
+    padding: 70px 0px;
+    margin-top: 40px;
+}
+
+.tab-section-image-frame {
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.tab-section-image-frame .tab-section-image-frame-left {
+    width: 23%;
+    margin-right: 4%;
+}
+
+.tab-section-image-frame .tab-section-image-frame-left:last-child {
+    margin-right: 0%;
+}
+
+.tab-section-image-frame .tab-section-image-frame-left img {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.tab-section-inadmissions-top-colleges .react-tabs__tab--selected::after {
+    position: absolute;
+    left: 0px;
+    top: 63px;
+    content: '\25b2';
+    padding-left: 0px;
+    font-size: 50px;
+    color: #f4f4f4;
+    width: 100%;
+}
+
+.admissions-top-colleges .admissions-tab-frame {
+    margin-top: 100px;
+}
+
+.admissions-page.admissions-top-colleges .heading-contact-middle h2 {
+    margin-bottom: 70px;
+}
+
+.heading-contact-middle .tab-section-inadmissions-top-colleges.two ul li:nth-child(1) {
+    display: none;
+}
+
+.tab-section-inadmissions-top-colleges.two .react-tabs__tab-panel:nth-child(2) {
+    display: none;
+}
+
+
+/* why-us page */
+.why-us .track-your-college-left h3 {
+    margin: 0px;
+    color: #107869;
+}
+
+.why-us .track-your-college-left h2 {
+    margin: 0px;
+}
+
+.table-section-page-all {}
+
+.table-section-page-all table {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.table-section-page-all table tr th {
+    color: #107869;
+    font-family: LeagueSpartan-Bold;
+    font-size: 17px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.table-section-page-all table tr th:first-child {
+    text-align: left;
+}
+
+.table-section-page-all table tr td {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    padding: 2px 10px;
+}
+
+.Acceptance-Rate-Comparison-frame.track-your-college {
+    padding-bottom: 0px;
+}
+
+.louder-than-our-words-why-middle-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.louder-than-our-words-why-middle-section-left {
+    width: 15.7%;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+
+.louder-than-our-words-why-middle-section-left .marquee-section-inner-section img {
+    width: 100%;
+}
+
+.louder-than-our-words-why-middle-section-left:nth-child(5) {
+    margin-right: 0px;
+}
+
+.louder-than-our-words-why-middle-section-left:nth-child(10) {
+    margin-right: 0px;
+}
+
+.louder-than-our-words-why-middle-section-left:nth-child(10) {
+    margin-right: 0px;
+}
+
+.louder-than-our-words-why-middle-section-left:nth-child(15) {
+    margin-right: 0px;
+}
+
+.louder-than-our-words-why-middle-section-left:nth-child(20) {
+    margin-right: 0px;
+}
+
+.louder-than-our-words-why-middle-section-left .marquee-section-inner-section .marquee-section-inner-section-back {
+    background: #00000075;
+}
+
+.why-us-college-application.track-your-college {
+    padding-top: 0px;
+}
+
+.why-us-college-application-left-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.why-us-college-application-left-section-left {
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px hsl(210deg 8% 62% / 20%);
+    display: flex;
+    margin-bottom: 50px;
+    padding: 40px 0px;
+    position: relative;
+    width: 47%;
+
+}
+
+.why-us-college-application-left-section-left-left {
+    padding: 0px 40px;
+}
+
+.why-us-college-application-left-section {
+    position: relative;
+}
+
+.why-us-college-application-left-section-left:before {
+    border-left: 7px solid #adcf62;
+    content: "";
+    display: block;
+    height: 75px;
+    left: -3px;
+    position: absolute;
+    top: 50px;
+    width: 0;
+}
+
+.why-us-college-application-left-section-left-left p {
+    margin: 0px;
+}
+
+.why-us-video-frame img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+/* our-alumini */
+.Alumni-Network-expands-middle-frame-left {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Alumni-Network-expands-middle-frame-inner {
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px hsl(210deg 8% 62% / 20%);
+    margin-bottom: 50px;
+    padding: 40px 25px;
+    position: relative;
+    width: 30%;
+    text-align: center;
+}
+
+.Alumni-Network-expands-middle-frame-inner img {}
+
+.Alumni-Network-expands-middle-frame-inner h4 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.Alumni-Network-expands-middle-frame-inner h5 {
+    font-weight: 600;
+}
+
+.Alumni-Network-expands-middle-frame-inner p {
+    margin-bottom: 0px;
+}
+
+.Alumni-Network-expands-middle-frame {
+    margin-top: 60px;
+}
+
+.words-of-our-founders-frame {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px hsl(210deg 8% 62% / 20%);
+    margin-top: 60px;
+    padding: 60px;
+    align-items: center;
+}
+
+.words-of-our-founders-frame-icon {
+    position: absolute;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.words-of-our-founders-frame-left {
+
+    width: 25%;
+
+}
+
+.words-of-our-founders-frame-right {
+
+    width: 65%;
+
+}
+
+.words-of-our-founders-frame-right p {
+    width: 100%;
+}
+
+.words-of-our-founders-frame-right h4 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.Our-Resultsour-alumini-frame-middle-sect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.Our-Resultsour-alumini-frame-middle-sect-left {
+    width: 21%;
+    text-align: center;
+    box-shadow: 0 8px 24px hsl(210deg 8% 62% / 20%);
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.Our-Resultsour-alumini-frame-middle-sect-left img {
+    width: 100%;
+}
+
+.Our-Resultsour-alumini-frame-middle-sect-left h4 {
+    font-family: LeagueSpartan-Bold;
+    color: #08313a;
+    margin-top: 35px;
+}
+
+.Our-Resultsour-alumini-frame.track-your-college {
+    padding-bottom: 0px;
+}
+
+.Companies-where-Athena-frame-logo-frame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.Companies-where-Athena-frame-logo-frame-main {
+    background: #ededed;
+    margin-top: 70px;
+}
+
+.logo-frame-image-our-alumini {
+    margin-bottom: 10px;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college {
+    padding-bottom: 0px;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini {
+    margin-bottom: 20px;
+    width: 18%;
+    margin-right: 2.5%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(5) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(10) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(15) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(20) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(25) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(30) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(35) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini img {
+    width: 100%;
+}
+
+.our-student-success-new.our-student-success .cds--tabs__nav-link img {
+    border-radius: 70px;
+}
+
+.test-bor-img-cy .cds--tabs__nav-link img {
+    border-radius: 108px;
+    width: 90px !important;
+    height: 90px;
+}
+
+/* our-story page */
+
+
+.what-we-do-top-section.admissions-canada.our-story-page .what-we-do-top-section-top-middle-left:nth-last-child(3) {
+    margin-right: 3%;
+}
+
+.what-we-do-top-section.admissions-canada.our-story-page .what-we-do-top-section-top-middle-left:nth-last-child(1) {
+    margin-right: 0%;
+}
+
+.what-we-do-top-section.admissions-canada.our-story-page .what-we-do-top-section-top-middle {
+    align-items: initial;
+}
+
+.what-we-do-top-section.admissions-canada.our-story-page .what-we-do-top-section-top-middle-left {
+    align-items: initial;
+    text-align: left;
+}
+
+.what-we-do-top-section.admissions-canada.our-story-page .what-we-do-top-section-top-middle-left-border {
+    left: 128px;
+}
+
+.have-walked-so-far {
+    padding: 70px 0px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.Founding-Members-frame .heading-contact-middle h2 {
+    margin-top: 12px;
+}
+
+.project-profile-development-frame.our-story-2nd {
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.project-profile-development-frame.our-story-2nd .project-profile-development-frame-right {
+    padding-left: 0px;
+}
+
+.student-journey.our-story .how-top-chose-a-oprtiom-middle-frame-middle h4 {
+    font-family: LeagueSpartan-Bold;
+    color: #106268;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-top: 25px;
+
+}
+
+.student-journey.our-story .how-top-chose-a-oprtiom-middle-frame-middle {
+    width: 29%;
+    padding: 0px 30px 20px 30px !important;
+}
+
+.track-your-college.bthgrade.how-to-apply.student-journey.our-story {
+    padding-bottom: 0px;
+}
+
+.Our-Brand-Promise-what-we-do-frame.our-story-page .what-we-do-section-page-right {
+    background: #fff;
+}
+
+.Our-Brand-Promise-what-we-do-frame.our-story-page .what-we-do-section-page-right h3 {
+    color: #107869;
+}
+
+.Our-Brand-Promise-what-we-do-frame.our-story-page .what-we-do-section-page-right h2 {
+    color: #141414;
+    margin-top: 6px;
+}
+
+.Our-Brand-Promise-what-we-do-frame.our-story-page .what-we-do-section-page-right p {
+    color: #141414;
+    margin-top: 30px;
+
+}
+
+.Our-Brand-Promise-what-we-do-frame.our-story-page .what-we-do-section-page-right p:nth-child(3) {
+    margin-top: 50px;
+}
+
+.Our-Brand-Promise-what-we-do-frame.our-story-page {
+    margin-bottom: 0px;
+
+}
+
+.track-your-college.admissions-page.our-story {
+    padding-top: 50px !important;
+}
+
+.track-your-college.admissions-page.our-story .track-your-college-right-img {
+    margin-top: 165px;
+}
+
+.Founding-Members-frame .footer-top-map-img-button {
+    margin-top: 0px;
+}
+
+
+/* about-athena  */
+.our-team-middle-section.about-athena .our-team-middle-section-frame-left {
+    width: 20%;
+}
+
+.about-athena-image-drame-bottom {
+    display: flex;
+    margin-top: 50px;
+}
+
+.about-athena-image-drame-bottom .about-athena-image-drame-bottom-left {
+    width: 20%;
+    margin-right: 1.5%;
+}
+
+.about-athena-image-drame-bottom .about-athena-image-drame-bottom-left:last-child {
+    margin-right: 0%;
+}
+
+.about-athena-image-drame-bottom .about-athena-image-drame-bottom-left img {
+    width: 100%;
+}
+
+.our-team-middle-section .heading-contact-middle p {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.leading-education-counseling-firm {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.leading-education-counseling-firm .heading-contact-middle-about-athena h4 {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    font-size: 34px;
+}
+
+.leading-education-counseling-firm .heading-contact-middle-about-athena h4 span {
+    font-family: LeagueSpartan-SemiBold;
+    color: #107869;
+}
+
+.leading-education-counseling-firm .heading-contact-middle-about-athena p {}
+
+.heading-contact-middle-about-athena-bottom-ullist {}
+
+.heading-contact-middle-about-athena-bottom-ullist ul {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-line-pack: center;
+    -ms-flex-line-pack: center;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 60px 0px;
+}
+
+.heading-contact-middle-about-athena-bottom-ullist ul li {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    margin-right: 3%;
+    padding: 17px 10px;
+    width: 17%;
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    border-radius: 5px;
+}
+
+.heading-contact-middle-about-athena-bottom-ullist ul li:last-child {
+    margin-right: 0%;
+}
+
+.heading-contact-middle-about-athena-bottom-ullist ul li:hover {
+    background: #08313a;
+    color: #fff;
+}
+
+.Athena-Was-Establishedabout-athena-page .heading-contact-middle h5 {
+    font-size: 22px;
+    font-family: LeagueSpartan-Light;
+    margin-top: 30px;
+}
+
+.Athena-Was-Establishedabout-athena-page .heading-contact-middle h5 span {
+    color: #107869;
+    font-family: LeagueSpartan-Bold;
+}
+
+.Undergraduate-Admissions-frame-middle-number ul.OUAC-one li::before {
+    position: absolute;
+    top: -3px;
+}
+
+.Undergraduate-Admissions-frame-middle-number ul.OUAC-one li div {
+    padding-left: 15px;
+}
+
+.Autobiography-of-a-Student-frame {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Autobiography-of-a-Student-frame .Autobiography-of-a-Student-frame-left {
+
+    width: 22%;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    background: #fff;
+    padding: 30px 15px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-right: 3%;
+    transition-duration: 0.4s;
+    position: relative;
+    text-align: center;
+}
+
+.Autobiography-of-a-Student-frame .Autobiography-of-a-Student-frame-left:nth-last-child(8) {
+    margin-right: 0%;
+}
+
+.Autobiography-of-a-Student-frame .Autobiography-of-a-Student-frame-left:nth-last-child(4) {
+    margin-right: 0%;
+}
+
+.Autobiography-of-a-Student-frame-left-img .One {
+    display: none;
+}
+
+.Autobiography-of-a-Student-frame-left-img img {
+    width: 50px;
+}
+
+.Autobiography-of-a-Student-frame .Autobiography-of-a-Student-frame-left p {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.Autobiography-of-a-Student-frame.new-add .Autobiography-of-a-Student-frame-left p {
+    margin-top: 15px;
+}
+
+.Autobiography-of-a-Student-frame .Autobiography-of-a-Student-frame-left .what-we-do-top-section-top-middle-left-border {
+    margin: 0 auto;
+    border-top: 5px solid #adcf62;
+    margin-top: 25px;
+    width: 70px;
+    position: absolute;
+    bottom: -3px;
+    left: 90px;
+}
+
+.Autobiography-of-a-Student-frame .Autobiography-of-a-Student-frame-left:hover {
+    background: #08313a;
+}
+
+.Autobiography-of-a-Student-frame .Autobiography-of-a-Student-frame-left:hover p {
+    color: #fff;
+}
+
+.Autobiography-of-a-Student-frame .Autobiography-of-a-Student-frame-left:hover .One {
+    display: inline;
+}
+
+.Autobiography-of-a-Student-frame .Autobiography-of-a-Student-frame-left:hover .two {
+    display: none;
+}
+
+.Autobiography-of-a-Student-frame {
+    margin-top: 60px;
+}
+
+.Proprietary-Tech-Platform-frame {
+    display: flex;
+    padding: 100px 0px;
+    background: #08313a;
+    margin-top: 80px;
+}
+
+.Proprietary-Tech-Platform-frame-left {
+    width: 40%;
+}
+
+.Proprietary-Tech-Platform-frame-left .heading-contact-middle {
+    padding: 0px;
+    text-align: left;
+}
+
+.Proprietary-Tech-Platform-frame-left .heading-contact-middle h2 {
+    color: #fff;
+}
+
+.Proprietary-Tech-Platform-frame-left .heading-contact-middle h3 {
+    color: #adcf62;
+    margin-bottom: 10px;
+}
+
+.Proprietary-Tech-Platform-frame-left .heading-contact-middle p {
+    color: #fff;
+}
+
+.Proprietary-Tech-Platform-frame-right {
+    width: 60%;
+}
+
+.our-team-middle-section.about-athena.Athena-Was-Establishedabout-athena-page.BETTERTHANYESTERDAY .Autobiography-of-a-Student-frame {
+    justify-content: center;
+}
+
+.our-team-middle-section.about-athena.Athena-Was-Establishedabout-athena-page.BETTERTHANYESTERDAY h5 {
+    text-align: center;
+    font-size: 22px;
+    font-family: LeagueSpartan-Light;
+
+}
+
+.our-team-middle-section.about-athena.Athena-Was-Establishedabout-athena-page.BETTERTHANYESTERDAY h5 span {
+    font-family: LeagueSpartan-Bold;
+}
+
+.our-story.What-Athena-Offers .how-top-chose-a-oprtiom-middle-frame-middle h4 {
+    color: #107869;
+    font-family: LeagueSpartan-Bold;
+    text-transform: initial;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.our-story.What-Athena-Offers .how-top-chose-a-oprtiom-middle-frame-middle p {
+    text-align: center;
+}
+
+.admission-to-your-dream-university-frame.about-athena {
+    background: #107869;
+    margin-top: 40px;
+}
+
+.admission-to-your-dream-university-frame.about-athena .what-we-do-section-page .footer-top-map-img-button-link:hover {
+    background: #08313a;
+    border: 1px solid #08313a;
+}
+
+.Our-Mentors-frame-our-story-frame {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.Our-Mentors-frame-our-story-frame .Our-Mentors-frame-our-story-frame-left {
+    width: 50%;
+}
+
+.Our-Mentors-frame-our-story-frame .Our-Mentors-frame-our-story-frame-left img {
+    width: 100%;
+}
+
+.Our-Mentors-frame-our-story-frame .Our-Mentors-frame-our-story-frame-right {
+    width: 50%;
+    width: 50%;
+    padding: 0px 74px;
+}
+
+.Our-Mentors-frame-our-story-frame .Our-Mentors-frame-our-story-frame-right .tab-pmp-profilr .accordion__heading {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Our-Mentors-frame-our-story-frame .Our-Mentors-frame-our-story-frame-right .why-choese-us-home-page-heading {
+    text-align: left;
+}
+
+.Our-Mentors-frame-our-story-frame .Our-Mentors-frame-our-story-frame-right .why-choese-us-home-page-heading h3 {}
+
+.Our-Mentors-frame-our-story-frame .Our-Mentors-frame-our-story-frame-right .why-choese-us-home-page-heading h2 {
+    margin-top: 0px;
+}
+
+.Our-Mentors-frame-our-story-frame .Our-Mentors-frame-our-story-frame-right .why-choese-us-home-page-heading p {
+    margin-top: 60px;
+}
+
+.Our-Mentors-frame-our-story-frame-right-faq-section .tab-pmp-profilr .accordion__button {
+    text-align: left;
+}
+
+.Our-Mentors-frame-our-story-frame-right-faq-section .accordion__button:before {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+
+.admissions-page .Our-Mentors-frame-our-story-frame-right-faq-section .tab-pmp-profilr .accordion__button::after {
+    background: transparent !important;
+}
+
+.admissions-page .Our-Mentors-frame-our-story-frame-right-faq-section .tab-pmp-profilr .accordion__button {
+    text-align: left;
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 23px;
+    padding: 21px 18px;
+
+}
+
+.admissions-page .Our-Mentors-frame-our-story-frame-right-faq-section .tab-pmp-profilr .accordion__item {
+    margin-bottom: 22px;
+}
+
+.admissions-page .Our-Mentors-frame-our-story-frame-right-faq-section .tab-pmp-profilr .accordion__panel {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    background: #fff;
+}
+
+.Proprietary-Tech-Platform-frame-middle {
+    display: flex;
+}
+
+.Proprietary-Tech-Platform-frame-middle .react-multi-carousel-item {
+    padding-right: 50px;
+}
+
+.Proprietary-Tech-Platform-frame-middle .react-multi-carousel-item img {
+    width: 100%;
+}
+
+.Proprietary-Tech-Platform-frame-middle .react-multi-carousel-item img::before {
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.Proprietary-Tech-Platform-frame-middle .slider-main {
+    position: relative;
+}
+
+.Proprietary-Tech-Platform-frame-middle .overflow-color {
+    background: #08313a9e;
+    position: absolute;
+    top: 0px;
+    z-index: 999999;
+    height: 100%;
+    width: 100%;
+}
+
+.Proprietary-Tech-Platform-frame-middle .react-multi-carousel-item--active~.react-multi-carousel-item--active .overflow-color {
+    background: #08313a00;
+}
+
+.Proprietary-Tech-Platform-frame-middle .react-multi-carousel-item--active~.react-multi-carousel-item--active~.react-multi-carousel-item--active .overflow-color {
+    background: #08313a9e;
+}
+
+.Proprietary-Tech-Platform-frame-right-middle {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.Proprietary-Tech-Platform-frame-middle .react-multi-carousel-item--active~.react-multi-carousel-item--active img {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.Proprietary-Tech-Platform-frame-middle .react-multi-carousel-item--active~.react-multi-carousel-item--active~.react-multi-carousel-item--active img {
+    -ms-transform: initial;
+    -webkit-transform: initial;
+    transform: initial;
+}
+
+.Proprietary-Tech-Platform-frame-right .react-multi-carousel-list {
+    padding-top: 81px;
+    padding-bottom: 81px;
+}
+
+.Proprietary-Tech-Platform-frame-right .react-multiple-carousel__arrow {
+    background: #fff;
+    min-width: 35px;
+    min-height: 35px;
+}
+
+.Proprietary-Tech-Platform-frame-right .react-multiple-carousel__arrow::before {
+    color: #08313a;
+    font-size: 15px;
+}
+
+.have-walked-so-far .content {
+    display: flex;
+    align-items: center;
+
+}
+
+.content-inner-icon-image-change-tab {
+    left: 0px;
+    position: absolute;
+    width: 60%;
+    top: 0px
+}
+
+.have-walked-so-far .content-inner {
+    background: #fff;
+    position: relative;
+    left: 47%;
+    padding: 50px 0px 50px 60px;
+    position: absolute;
+    right: 0px;
+    width: 53%;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.have-walked-so-far .content-inner-middle {
+    width: 80%;
+}
+
+.have-walked-so-far .content-inner::after {
+    position: absolute;
+    left: -24px;
+    top: 185px;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid #fff;
+}
+
+.have-walked-so-far .content-inner h3 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.have-walked-so-far .content-inner h2 {
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 46px;
+    line-height: 46px;
+    margin-top: 0px;
+}
+
+.have-walked-so-far .content-inner h5 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.have-walked-so-far .content-inner ul {
+    padding-left: 20px;
+    margin-bottom: 0px;
+
+}
+
+.have-walked-so-far .content-inner ul li {
+    list-style-type: none;
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.have-walked-so-far .content-inner ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.have-walked-so-far .content-inner ul li::before {
+    content: "\2022";
+    color: #107869;
+    font-weight: bold;
+    display: inline-block;
+    width: 40px;
+    margin-left: -1em;
+    font-size: 23px;
+    position: absolute;
+    top: -3px;
+}
+
+.how-top-chose-a-oprtiom-middle-frame.about-athena-all_man {
+    margin-top: 70px;
+}
+
+.why-us-college-application-left-section.new .why-us-college-application-left-section-left-left {
+    width: 70%;
+}
+
+.why-us-college-application-left-section.new .why-us-college-application-left-section-left {
+    height: 290px;
+}
+
+.why-us-college-application-left-section.new .why-us-college-application-left-section-left:before {
+    top: 105px;
+}
+
+.STUDENTACCOLADES-sectuon.admissions-results-scholarships.new .STUDENTACCOLADES-sectuon-middle-left-inner-left {
+    width: 43%;
+}
+
+.STUDENTACCOLADES-sectuon.admissions-results-scholarships.new .STUDENTACCOLADES-sectuon-middle-left-inner-right {
+    width: 53%;
+}
+
+.STUDENTACCOLADES-sectuon.admissions-results-scholarships.new .STUDENTACCOLADES-sectuon-middle-left-inner {
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+/* about-the-program */
+
+.Curating-an-impactful-personal-brand-middle {
+
+    border-radius: 10px;
+    box-shadow: 0 8px 24px hsl(210deg 8% 62% / 20%);
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.Curating-an-impactful-personal-brand-middle .Curating-an-impactful-personal-brand-middle-left {
+    background: #43af9f;
+    width: 30%;
+    margin-left: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.Curating-an-impactful-personal-brand-middle .Curating-an-impactful-personal-brand-middle-left h2 {
+    color: #fff;
+    font-family: CrimsonPro-Regular;
+    font-size: 164px;
+    text-align: center;
+    margin-top: 23%;
+}
+
+.Curating-an-impactful-personal-brand-middle .Curating-an-impactful-personal-brand-middle-left h2 sup {
+    font-size: 40px;
+    top: -75px;
+    left: -37px;
+}
+
+.Curating-an-impactful-personal-brand-middle .Curating-an-impactful-personal-brand-middle-right {
+    width: 70%;
+    padding: 45px 0px;
+    padding-left: 45px;
+}
+
+.Curating-an-impactful-personal-brand-middle .Curating-an-impactful-personal-brand-middle-right h5 {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.Curating-an-impactful-personal-brand-middle .Curating-an-impactful-personal-brand-middle-right ul {
+    margin-bottom: 40px;
+    padding: 0px;
+    padding-left: 15px;
+}
+
+.Curating-an-impactful-personal-brand-middle .Curating-an-impactful-personal-brand-middle-right ul li::before {
+    content: "\2022";
+    color: #adcf62;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -25px;
+    position: absolute;
+}
+
+.Curating-an-impactful-personal-brand-middle .Curating-an-impactful-personal-brand-middle-right ul li {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+
+.Curating-an-impactful-personal-brand-middle .Curating-an-impactful-personal-brand-middle-right .footer-top-map-img-button {
+    margin-top: 0px;
+    text-align: left;
+}
+
+.Curating-an-impactful-personal-brand-middle .footer-top-map-img-button-link img {
+    margin-left: 20px;
+}
+
+.Curating-an-impactful-personal-brand {
+    margin-top: 70px;
+}
+
+.track-your-college.bthgrade.about-the-program-impactful {
+    padding-bottom: 40px;
+}
+
+.Curating-an-impactful-personal-brand-middle.two .Curating-an-impactful-personal-brand-middle-left {
+    background: #107869;
+}
+
+.Curating-an-impactful-personal-brand-middle.three .Curating-an-impactful-personal-brand-middle-left {
+    background: #1a5653;
+}
+
+.Curating-an-impactful-personal-brand-middle.four .Curating-an-impactful-personal-brand-middle-left {
+    background: #08313a;
+}
+
+.Program-Benefits-about-the-program-page-middle .team-left-frame-one-left {
+    width: 40%;
+}
+
+.Program-Benefits-about-the-program-page-middle .team-left-frame-one-right {
+    width: 60%;
+}
+
+.Program-Benefits-about-the-program-page.track-your-college .track-your-college-left h3 {
+    color: #107869;
+}
+
+.Program-Benefits-about-the-program-page-middle {
+    margin-top: 70px;
+}
+
+.Program-Benefits-about-the-program-page.track-your-college .footer-top-map-img-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Program-Benefits-about-the-program-page.track-your-college {
+    padding-bottom: 0px;
+}
+
+.Program-Benefits-about-the-program-page.track-your-college .react-multiple-carousel__arrow {
+    background: #f4f4f4;
+    min-width: 35px;
+    min-height: 35px;
+
+
+}
+
+.Program-Benefits-about-the-program-page.track-your-college .react-multiple-carousel__arrow--left {
+    left: calc(0% + 1px);
+}
+
+.Program-Benefits-about-the-program-page.track-your-college .react-multiple-carousel__arrow--right {
+    right: calc(0% + 1px);
+}
+
+.Program-Benefits-about-the-program-page.track-your-college .react-multiple-carousel__arrow:hover {
+    background: #107869;
+}
+
+.Program-Benefits-about-the-program-page.track-your-college .react-multiple-carousel__arrow::before {
+    color: #107869;
+    font-size: 15px;
+}
+
+.Program-Benefits-about-the-program-page.track-your-college .react-multiple-carousel__arrow:hover::before {
+    color: #fff;
+}
+
+.mind-set-slide-frame {
+    display: flex;
+    position: relative;
+    margin-top: 130px;
+}
+
+.mind-set-slide-frame-left {
+    width: 40%;
+    z-index: 9999999;
+    position: relative;
+
+}
+
+.mind-set-slide-frame-right {
+    width: 60%;
+}
+
+.mind-set-slide-frame-right img {
+    width: 100%;
+}
+
+.Growth-Mindset-left-frame-left {
+    width: 135%;
+    display: flex;
+    background-color: #f4f4f4;
+    padding: 30px 30px;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 65px;
+}
+
+.Growth-Mindset-left-frame-left-left {
+    width: 15%;
+}
+
+.Growth-Mindset-left-frame-left-right {
+    width: 85%;
+    padding-left: 40px;
+}
+
+.Growth-Mindset-left-frame-left-right p {
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.Growth-Mindset-left-frame-left-right h4 {
+    color: #107869;
+    font-size: 18px;
+    font-family: LeagueSpartan-Bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.Growth-Mindset-about-the-program-page {
+    margin-top: 100px;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.Growth-Mindset-about-the-program-page-top-c {
+    width: 33%;
+    position: absolute;
+    top: 0px;
+}
+
+.starGrowth-Mindset-about-the-program-page {
+    position: absolute;
+    right: 17px;
+    top: 25px;
+}
+
+.starGrowth-Mindset-about-the-program-page img {
+    width: 50px;
+}
+
+.Growth-Mindset-about-the-program-page .container {
+    position: relative;
+}
+
+.Growth-Mindset-about-the-program-page .react-multiple-carousel__arrow {
+    background: #f4f4f4;
+    min-width: 35px;
+    min-height: 35px;
+}
+
+.Growth-Mindset-about-the-program-page .react-multiple-carousel__arrow::before {
+    color: #107869;
+    font-size: 15px;
+}
+
+.Growth-Mindset-about-the-program-page .react-multiple-carousel__arrow--right {
+    right: inherit;
+    left: 34%;
+    bottom: 0%;
+}
+
+.Growth-Mindset-about-the-program-page .react-multiple-carousel__arrow--left {
+    left: 29.5%;
+    bottom: 0%;
+}
+
+
+.Growth-Mindset-about-the-program-page .react-multiple-carousel__arrow:hover::before {
+    color: #fff;
+}
+
+.Growth-Mindset-about-the-program-page .react-multiple-carousel__arrow:hover {
+    background: #107869;
+}
+
+.Growth-Mindset-about-the-program-page .track-your-college-left p {
+    margin-bottom: 0px;
+}
+
+.Growth-Mindset-about-the-program-page .track-your-college-left p:nth-child(4) {
+    margin-top: 25px;
+}
+
+/* minerva */
+.minerva-top-heading .track-your-college-left {
+    width: 100% !important;
+
+}
+
+.minerva-top-frame .track-your-college-right-img {
+    margin-top: 70px !important;
+}
+
+.minerva-top-frame .track-your-college-left p {
+    margin-top: 0px !important;
+    margin-bottom: 20px;
+}
+
+.col-md-12.minerva-top-heading {
+    margin-bottom: 40px;
+}
+
+.Athena-Was-Establishedabout-athena-page.PROJECTS-THROUGH-ACADEMY .Autobiography-of-a-Student-frame {
+    justify-content: center;
+}
+
+.Athena-Was-Establishedabout-athena-page.PROJECTS-THROUGH-ACADEMY .Autobiography-of-a-Student-frame-left {
+    margin-right: 3%;
+}
+
+.Athena-Was-Establishedabout-athena-page.PROJECTS-THROUGH-ACADEMY .Autobiography-of-a-Student-frame-left:nth-child(10) {
+    margin-right: 0px;
+}
+
+.Athena-Was-Establishedabout-athena-page.PROJECTS-THROUGH-ACADEMY .Autobiography-of-a-Student-frame-left:nth-child(8) {
+    margin-right: 0px;
+}
+
+.Athena-Was-Establishedabout-athena-page.PROJECTS-THROUGH-ACADEMY .Autobiography-of-a-Student-frame-left:nth-child(4) {
+    margin-right: 0px;
+}
+
+.minerva-tab {}
+
+.minerva-tab .tab-pmp-profilr .accordion__button::after {
+    background: transparent !important;
+}
+
+
+
+.minerva-tab .th-grade-tab-open-frame-right-bottom-ul {
+    display: flex;
+    margin-top: 15px;
+}
+
+.minerva-tab .th-grade-tab-open-frame-right-bottom-ul .th-grade-tab-open-frame-right-bottom-ul-left {
+    width: 50%;
+}
+
+.minerva-tab .th-grade-tab-open-frame-right-bottom-ul .th-grade-tab-open-frame-right-bottom-ul-right {
+    width: 50%;
+}
+
+.minerva-tab .th-grade-tab-open-frame-right-bottom-ul h4 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.minerva-tab .th-grade-tab-open-frame-right-bottom-ul ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.minerva-tab .th-grade-tab-open-frame-right-bottom-ul ul li {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.minerva-tab .th-grade-tab-open-frame-right h5 {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    margin-bottom: 25px;
+}
+
+.minerva-tab .th-grade-tab-open-frame-right h5 span {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+}
+
+.minerva-tab .th-grade-tab-open-frame-right-bottom-ul ul li::before {
+    content: "\2022";
+    color: #107869;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -25px;
+    position: absolute;
+}
+
+.minerva-tab .th-grade-tab-open-frame-left {
+    width: 30% !important;
+    margin-right: 8% !important;
+}
+
+.minerva-tab .th-grade-tab-open-frame-right {
+    width: 55% !important;
+}
+
+
+/*presscoverage-main-frame */
+.presscoverage-main-frame {
+    padding: 100px 0px;
+}
+
+.presscoverage-main-frame-middle {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.presscoverage-main-frame-middle-left {
+    width: 65%;
+    margin-right: 85px;
+}
+
+.presscoverage-main-frame-middle-right {
+    width: 35%;
+}
+
+.presscoverage-main-frame-middle-right img {
+    width: 100%;
+
+}
+
+.presscoverage-main-frame-middle-left-heading h3 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.presscoverage-main-frame-middle-left-heading h2 {
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 46px;
+    line-height: 46px;
+    margin-top: 0px;
+}
+
+.presscoverage-main-frame-middle-left-heading-middle h5 {
+    color: #107869;
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    margin-top: 35px;
+}
+
+.presscoverage-main-frame-middle-left-heading-middle h5 img {
+    width: 14px;
+    margin-right: 20px;
+    position: relative;
+    top: -2px;
+}
+
+.presscoverage-main-frame-middle-left-heading-middle p {
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.search-box-blog {}
+
+.search-box-blog input {
+    border: 0px;
+    border-bottom: 1.5px solid #999999;
+    width: 75%;
+    padding: 10px 0px;
+}
+
+.search-box-blog button {
+    border: 0px;
+    background: transparent;
+    margin-left: 15px;
+    margin-left: 15px;
+    position: relative;
+    top: 5px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.search-box-blog-right-main {
+    padding-left: 60px;
+}
+
+.blog-list-frame-right {}
+
+.blog-list-frame-right h4 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.blog-list-frame-right ul {
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.blog-list-frame-right ul li {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    margin-bottom: 5px;
+}
+
+.blog-list-frame-right {
+    margin-top: 70px;
+}
+
+.blog-list-frame-right.bottom ul li:nth-child(odd) {
+    color: #999999;
+}
+
+.bread-crma-last-frame {}
+
+.bread-crma-last-frame ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+}
+
+.bread-crma-last-frame li {
+    background: #f4f4f4;
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    margin-right: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.bread-crma-last-frame li:hover {
+    background: #08313a;
+    color: #adcf62;
+}
+
+.bread-crma-last-frame li.active {
+    background: #08313a;
+    color: #adcf62;
+}
+
+.blog-detail .presscoverage-main-frame-middle {
+    display: initial;
+}
+
+.blog-detail .presscoverage-main-frame-middle-right {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.blog-detail .presscoverage-main-frame-middle-left {
+    width: 100%;
+}
+
+header {
+    box-shadow: rgb(149 157 165 / 9%) 0px 8px 24px;
+}
+
+.testimonials-all-page-align {
+    background: #f4f4f4;
+    padding: 70px 0px;
+    margin-top: 0px;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .TESTIMONIALS-list-main-home-top-cont img {
+    width: 50px;
+    position: absolute;
+    top: -18px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .react-multi-carousel-track {
+    padding: 100px 0px;
+    padding-bottom: 170px;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .Testimonials-home-middle-left {
+    padding: 0px 0px;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .react-multiple-carousel__arrow {
+    bottom: 25%;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .Testimonials-home-middle-left .TESTIMONIALS-list-main-home {
+    position: relative;
+    height: 100%;
+    align-items: center;
+    display: flex;
+
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .TESTIMONIALS-list-main-home-top-cont-img {
+    position: absolute;
+    bottom: -120px;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .TESTIMONIALS-list-main-home-top-cont-img-right h4 {
+    color: #08313a;
+    font-family: CrimsonPro-Regular;
+    font-size: 18px;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .TESTIMONIALS-list-main-home-top-cont-img-right p {
+    color: #141414;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section {
+    margin-top: 100px;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .react-multiple-carousel__arrow--right {
+    right: -25%;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .react-multiple-carousel__arrow--left {
+    right: -20%;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .react-multiple-carousel__arrow {
+    background: #ededed;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .Testimonials-home-middle-left .TESTIMONIALS-list-main-home::after {
+    content: "";
+    width: 39px;
+    height: 0;
+    border-style: solid;
+    border-width: 21px 23px 0 17px;
+    border-color: #08313a transparent transparent transparent;
+    position: absolute;
+    bottom: -20px;
+    left: 49px;
+
+}
+
+.Video-Testimonials-page2 {
+
+    box-shadow: 2px 2px 0px #0000000a;
+    text-align: center;
+    margin-right: 40px;
+    padding: 0px 30px 30px 30px;
+
+}
+
+
+
+.Video-Testimonials-page-main .react-multi-carousel-list {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: inherit;
+}
+
+.Video-Testimonials-page-main .react-multi-carousel-item {
+    margin-bottom: 20px;
+}
+
+.Video-Testimonials-page-main .react-multi-carousel-item a {
+    text-decoration: none !important;
+}
+
+.Video-Testimonials-page img {}
+
+.Video-Testimonials-page h5 img {
+    margin-top: 15px;
+}
+
+.Video-Testimonials-page p {
+    height: 50px;
+}
+
+.Video-Testimonials-page2 img.top {
+    width: 100%;
+}
+
+.Video-Testimonials-page h4 {
+    color: #107869;
+    font-family: CrimsonPro-Regular;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.Video-Testimonials-page-main .react-multiple-carousel__arrow {
+    background: #ededed;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.Video-Testimonials-page-main .react-multiple-carousel__arrow::before {
+    color: #107869;
+    font-size: 14px;
+}
+
+.Video-Testimonials-page .container {
+    position: relative;
+}
+
+.Testimonials-home-middle.Parents-Testimonials-section .track-your-college .track-your-college-left {
+    padding: 115px 0 115px 60px;
+}
+
+.backToTop {
+    bottom: 25px;
+    left: 25px;
+    position: fixed;
+    font-size: 19px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 55px;
+    background: rgb(8 49 58);
+    width: 40px;
+    height: 40px;
+    z-index: 99999999999999999999999999;
+    text-align: center;
+}
+
+.fancybox__container {
+    z-index: 9999999999999 !important;
+}
+
+.fancybox__nav {
+    display: none !important;
+}
+
+.fancybox__thumbs {
+    display: none !important;
+}
+
+/* contact page */
+.contact-us-top-section-map-frame {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
+.contact-us-top-section-map-frame-mai {
+    margin-top: 60px;
+}
+
+.contact-us-top-section-map-frame-left {
+    width: 50%;
+
+}
+
+.contact-us-top-section-map-frame-left iframe {
+    width: 100%;
+    height: 220px;
+    border: 0px;
+}
+
+.contact-us-top-section-map-frame-right {
+    width: 50%;
+    padding-left: 70px;
+}
+
+.contact-us-top-section-map-frame-right p {
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.contact-us-top-section-map-frame-right p:last-child {
+    margin-bottom: 0px;
+}
+
+.contact-us-top-section-map-frame-right p span {
+    padding-left: 20px;
+    width: 92%;
+    float: left;
+}
+
+.contact-us-top-section-map-frame-right p img {
+    width: 20px;
+    float: left;
+}
+
+.contact-us-top-section-map-frame-right p a {
+    color: #141414;
+}
+
+.contact-us-top-section-map-frame-right h3 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.contact-us-appointments-page {
+    padding: 70px 0px;
+    background: #08313a;
+    margin-top: 100px;
+}
+
+.contact-us-appointments-page p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.contact-us-appointments-page p a {
+    color: #adcf62;
+    text-decoration: none !important;
+    font-family: LeagueSpartan-Bold;
+}
+
+
+/* resources Page */
+.Past-Events-middle-middle-frame {
+    box-shadow: 0 8px 24px hsl(210deg 8% 62% / 20%);
+    display: flex;
+    width: 870px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+
+.Past-Events-middle-middle-frame .Past-Events-middle-middle-frame-left {
+    width: 30%;
+}
+
+.Past-Events-middle-middle-frame .Past-Events-middle-middle-frame-left img {
+    width: 100%;
+}
+
+.Past-Events-middle-middle-frame .Past-Events-middle-middle-frame-middle {
+    width: 60%;
+}
+
+.Past-Events-middle-middle-frame .Past-Events-middle-middle-frame-middle h4 {
+    color: #107869;
+    font-size: 24px !important;
+    font-weight: normal !important;
+    font-family: LeagueSpartan-Light !important;
+}
+
+.Past-Events-middle-middle-frame .Past-Events-middle-middle-frame-middle p {
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.Past-Events-middle-middle-frame .Past-Events-middle-middle-frame-middle p span {
+    font-weight: 600;
+}
+
+.Past-Events-middle-middle-frame .Past-Events-middle-middle-frame-right {
+    width: 20%;
+    text-align: center;
+}
+
+.Book-now-resources-page-Past-Events .Past-Events-middle-middle-frame-middle-cont {
+    padding-left: 50px;
+    width: 85%;
+}
+
+.Book-now-resources-page-Past-Events .react-multiple-carousel__arrow--right {
+    right: calc(0% + 1px);
+}
+
+.Book-now-resources-page-Past-Events .react-multiple-carousel__arrow--left {
+    left: calc(0% + 1px);
+}
+
+.Book-now-resources-page-Past-Events .react-multiple-carousel__arrow {
+    background: #ededed;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.Book-now-resources-page-Past-Events .react-multiple-carousel__arrow::before {
+    color: #107869;
+    font-size: 14px;
+}
+
+.Book-now-resources-page-Past-Events a {
+    text-decoration: none !important;
+}
+
+.Book-now-resources-page-Past-Events .react-multi-carousel-list {
+    margin-top: 60px;
+}
+
+.upcoming-Events-mian-middle-frame {
+    background: #f3f3f3;
+    padding: 30px 30px 30px 30px;
+    width: 85%;
+}
+
+.upcoming-Events-mian-middle-frame-image img {
+    width: 100%;
+}
+
+.upcoming-Events-mian-middle-frame-bottom {
+    text-align: center;
+}
+
+.upcoming-Events-mian-middle-frame-bottom h4 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+.upcoming-Events-mian-middle-frame-bottom h5{
+    font-family: LeagueSpartan-Bold;
+    color: #106268;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.upcoming-Events-mian-middle-frame-bottom ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    list-style: none;
+}
+
+.upcoming-Events-mian-middle-frame-bottom ul li {
+    width: 50%;
+    font-size: 12px;
+}
+
+.upcoming-Events-mian-middle-frame-bottom ul li:last-child {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.upcoming-Events-mian-middle-frame-bottom ul li img {
+    width: 15px;
+    margin-right: 8%;
+    margin-bottom: 15px;
+    position: relative;
+    top: 6px;
+}
+
+.upcoming-Events-mian-middle-frame-bottom ul li span {}
+
+.upcoming-Events-mian-middle-frame-bottom .footer-top-map-img-button {
+    margin-top: 30px;
+}
+
+.upcoming-Events-mian-middle-frame-bottom .footer-top-map-img-button-link img {
+    margin-left: 10px;
+}
+
+.Book-now-resources-page-Past-Events.UpcomingEvents {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.upcoming-Events-mian-middle-frame .footer-top-map-img-button-link {
+    font-size: 14px;
+}
+
+.Book-now-resources-page-Past-Events.UpcomingEvents .react-multi-carousel-item--active~.react-multi-carousel-item--active .upcoming-Events-mian-middle-frame {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    background: #fff;
+    width: 100%;
+    margin-top: -40px;
+}
+
+.Book-now-resources-page-Past-Events.UpcomingEvents .react-multi-carousel-item--active~.react-multi-carousel-item--active~.react-multi-carousel-item--active .upcoming-Events-mian-middle-frame {
+    background: #f3f3f3;
+    box-shadow: rgb(149 157 165 / 20%) 0px 0px 0px;
+    width: 85%;
+    margin-left: 15%;
+    margin-top: 0px;
+
+}
+
+.Book-now-resources-page-Past-Events.UpcomingEvents .react-multi-carousel-list {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: inherit;
+}
+
+.Book-now-resources-page-Past-Events.UpcomingEvents .react-multi-carousel-item--active~.react-multi-carousel-item--active .upcoming-Events-mian-middle-frame h4 {
+    color: #106268;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Book-now-resources-page-Past-Events.UpcomingEvents .react-multi-carousel-item--active~.react-multi-carousel-item--active .upcoming-Events-mian-middle-frame ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.Book-now-resources-page-Past-Events.UpcomingEvents .react-multi-carousel-item--active~.react-multi-carousel-item--active .upcoming-Events-mian-middle-frame .footer-top-map-img-button-link {
+    font-size: 18px;
+}
+
+
+
+
+.Book-now-resources-page-Past-Events.UpcomingEvents .react-multi-carousel-item--active~.react-multi-carousel-item--active~.react-multi-carousel-item--active .upcoming-Events-mian-middle-frame h4 {
+    color: #333;
+
+    font-size: 18px;
+}
+
+.Book-now-resources-page-Past-Events.UpcomingEvents .react-multi-carousel-item--active~.react-multi-carousel-item--active~.react-multi-carousel-item--active .upcoming-Events-mian-middle-frame ul li {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.Book-now-resources-page-Past-Events.UpcomingEvents .react-multi-carousel-item--active~.react-multi-carousel-item--active~.react-multi-carousel-item--active .upcoming-Events-mian-middle-frame .footer-top-map-img-button-link {
+    font-size: 14px;
+}
+
+.Book-now-resources-page.UpcomingEvents-page .container {
+    position: relative;
+}
+
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+
+.slider-banner:hover .slick-prev {
+    display: block !important;
+}
+
+.slider-banner:hover .slick-next {
+    display: block !important;
+}
+
+.instagram-main-frame.track-your-college.home-page-new {
+    padding-top: 0px;
+}
+
+.footer-top-map.home-page-new {
+    padding-top: 100px;
+}
+
+.track-your-college.home-page-new {}
+
+.student-top-collage-section-us-uk.home-page-new .what-we-do-section-page-right {
+    width: 100%;
+    padding-top: 100px !important;
+    padding-bottom: 0px;
+    display: initial;
+}
+
+.student-top-collage-section-us-uk.home-page-new {
+    align-items: center;
+    display: flex;
+}
+
+.student-top-collage-section-us-uk.home-page-new .what-we-do-section-page {
+    height: 100%;
+}
+
+.student-top-collage-section-us-uk.home-page-new .container-- {
+    padding-top: 0px;
+    width: 100%;
+}
+
+.student-top-collage-section-us-uk.home-page-new .student-top-collage-section-us-uk-lef-three {
+    margin-top: 50px;
+}
+
+.student-top-collage-section-us-uk.home-page-new .student-top-collage-section-us-uk-left {
+    padding: 100px 0px;
+    padding-left: 6%;
+}
+
+.student-top-collage-section-us-uk.home-page-new .student-top-collage-section-us-uk-right {
+    width: 50%;
+}
+
+.student-top-collage-section-us-uk.home-page-new .student-top-collage-section-us-uk-left {
+    width: 50%;
+}
+
+.student-top-collage-section-us-uk.home-page-new .student-top-collage-section-us-uk-left-tow ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.student-top-collage-section-us-uk.home-page-new .student-top-collage-section-us-uk-left-tow ul {
+    margin-bottom: 0px;
+}
+
+.student-top-collage-section-us-uk.home-page-new .what-we-do-section-page ul {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.our-approach-page.container.our-approach-page.container-new {
+    padding-top: 0px;
+}
+
+.our-team-middle-section.about-athena.newnew {
+    margin-bottom: 50px;
+}
+
+.how-top-chose-a-oprtiom.track-your-college.new {
+    padding-bottom: 50px;
+}
+
+.how-top-apply-page-last-student-section.our-student-success.new {
+    margin-top: 0px;
+}
+
+.project-profile-development-frame.what-we-do.about-athena-new {
+    padding-bottom: 100px;
+}
+
+.what-we-do-section-page.about-athena-new .what-we-do-section-page-right {
+    width: 55%;
+}
+
+.what-we-do-section-page.about-athena-new .what-we-do-section-page-left {
+    padding-right: 10px;
+}
+
+.what-we-do-section-page.about-athena-new .what-we-do-section-page-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.what-we-do-section-page.about-athena-new .why-choese-us-home-page-heading p {
+    color: #fff;
+    margin-top: 40px;
+    width: 80%;
+}
+
+.what-we-do-section-page.about-athena-new .why-choese-us-home-page-heading p:nth-child(3) {
+    margin-bottom: 20px;
+}
+
+
+.our-student-success-new2 .testimonials-all-page-align-middle {
+    width: 100%;
+    align-items: initial;
+}
+
+.our-student-success-new2 .testimonials-all-page-align-middle-left {
+    width: 50%;
+    background: #fff;
+}
+
+.our-student-success-new2 .testimonials-all-page-align-middle-left h2 {
+    font-family: CrimsonPro-ExtraLight;
+    color: #08313a;
+    font-size: 36px;
+}
+
+.our-student-success-new2 .testimonials-all-page-align-middle-left .tab-new-frame-middle h4 {
+    color: #107869;
+    font-family: LeagueSpartan-Regular;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.our-student-success-new2 .testimonials-all-page-align-middle-left .tab-new-frame-middle {
+    margin-bottom: 25px;
+}
+
+.our-student-success-new2 .testimonials-all-page-align-middle-left .tab-new-frame-middle:last-child {
+    margin-bottom: 0px;
+}
+
+.testimonials-all-page-align-middle-right-heading-new h4 {
+    color: #107869;
+    font-family: LeagueSpartan-Regular;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.testimonials-all-page-align-middle-right-heading-new p {}
+
+.testimonials-all-page-align-middle-right-heading-new ul {
+    padding: 0px;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.testimonials-all-page-align-middle-right-heading-new ul li {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    position: relative;
+}
+
+.testimonials-all-page-align-middle-right-heading-new ul li:before {
+    color: #107869;
+    content: "\2022";
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: -1em;
+    position: absolute;
+    top: -3px;
+    width: 40px;
+}
+
+.testimonials-all-page-align-middle-right-heading-new {
+    margin-bottom: 35px;
+}
+
+.testimonials-all-page-align-middle-right-heading-new:last-child {
+    margin-bottom: 0px;
+}
+
+.testimonials-all-page-align-middle-right-heading-new:last-child p {
+    margin-bottom: 0px;
+}
+
+.our-student-success-new2 .testimonials-all-page-align-middle-right {
+    padding: 0px 80px;
+}
+
+.our-student-success-new2 .testimonials-all-page-align-middle-left2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.our-student-success-new2 .testimonials-all-page-align-middle-left3 {
+    padding-left: 23%;
+}
+
+.Testimonials-home-middle.new-arrow .react-multiple-carousel__arrow--left {
+    display: none;
+}
+
+.STUDENTACCOLADES-sectuon.new-add {
+    padding-bottom: 0px;
+}
+
+.louder-than-our-words-why-middle-section-left.why-us-new-add {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    box-shadow: 0 8px 24px hsl(210deg 8% 62% / 20%);
+    margin-bottom: 45px;
+    border-radius: 10px;
+    margin-right: 0px;
+}
+
+.louder-than-our-words-why-middle-section.newadd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.louder-than-our-words-why-middle-section-left.why-us-new-add .marquee-section-inner-section {
+    width: 45%;
+}
+
+.louder-than-our-words-why-middle-section-left.why-us-new-add .marquee-section-inner-section-back-inner {
+    width: 55%;
+    position: relative;
+}
+
+.louder-than-our-words-why-middle-section-left.why-us-new-add .marquee-section-inner-section-back-inner-cont {
+    color: #107869;
+    display: inline;
+}
+
+.louder-than-our-words-why-middle-section-left.why-us-new-add .marquee-section-inner-section-botton-img img {
+    width: auto;
+}
+
+.subsc.number h4 {
+    margin-top: 30px;
+}
+
+.subsc.number p a {
+
+    color: #adcf62;
+    text-decoration: none !important;
+}
+
+.have-walked-so-far.new-add {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.have-walked-so-far.new-add .pmp-profile-page.our-team-page.admissions-page.admissions-us.why-us {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.Our-Brand-Promise-what-we-do-frame.our-story-page.new-add .what-we-do-section-page-right {
+    z-index: 999;
+    left: 0%;
+    border-radius: 10px;
+    padding-left: 20%;
+}
+
+.Our-Brand-Promise-what-we-do-frame.our-story-page.new-add .what-we-do-section-page-right-middle {
+    width: 90%;
+}
+
+.OUR-PHILOSOPHY-middle-main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.OUR-PHILOSOPHY-middle-main:last-child {
+    margin-bottom: 40px;
+}
+
+.OUR-PHILOSOPHY-middle-main h4 {
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.OUR-PHILOSOPHY-middle-main .OUR-PHILOSOPHY-middle-main-right p {
+    margin-top: 5px !important;
+    margin-bottom: 0px;
+}
+
+.OUR-PHILOSOPHY-middle-main .OUR-PHILOSOPHY-middle-main-right {
+    padding-left: 45px;
+}
+
+.Autobiography-of-a-Student-frame.new-add {
+    margin-top: 10px;
+}
+
+.heading-contact-middle.new-add h2 {
+    margin-bottom: 60px;
+}
+
+.Our-Brand-Promise-what-we-do-frame-left.ne-fix {
+    background: url(../img/our-story-13.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.Our-Brand-Promise-what-we-do-frame-left.ne-fix img {
+    visibility: hidden;
+
+}
+
+.content-inner-icon-image-change-tab-back-g {
+    position: absolute;
+    background: transparent;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.about-the-program-bottom-table {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.about-the-program-bottom-table table {
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+}
+
+.about-the-program-bottom-table table th {
+    text-align: center;
+    font-family: Cinzel-Regular;
+    width: 10.5%;
+    font-size: 55px;
+
+}
+
+.about-the-program-bottom-table table th span.cont {
+    font-family: CrimsonPro-Light;
+    font-size: 22px;
+    float: left;
+    text-align: left;
+    line-height: 25px;
+    font-weight: normal;
+
+}
+
+.about-the-program-bottom-table table th span.number {
+    float: left;
+    width: 55px;
+}
+
+.about-the-program-bottom-table table th:nth-child(2) span.number {
+    width: 35px;
+}
+
+.about-the-program-bottom-table table th:nth-child(1) {
+    background: #fff0;
+    width: 0%;
+}
+
+.about-the-program-bottom-table .sticky table th:nth-child(1) {
+    background: #fff0;
+    width: 12.9%;
+}
+
+.about-the-program-bottom-table table {
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+}
+
+.about-the-program-bottom-table table tr td {
+    padding: 40px 25px;
+    border-right: 1px solid #cccccc78;
+
+
+}
+
+.about-the-program-bottom-table table tr td:nth-child(1) {
+    background: #ededed;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid #cccccc00;
+    color: #08313a;
+    display: flex;
+    align-items: center;
+    width: 253px;
+}
+
+.about-the-program-bottom-table table tr {
+    box-shadow: rgb(149 157 165 / 18%) 0px 2px 5px;
+}
+
+.about-the-program-bottom-table table tr:nth-child(1) {
+    box-shadow: rgb(149 157 165 / 18%) 0px 0px 0px;
+}
+
+.about-the-program-bottom-table table tr td:nth-child(1) span:first-child {
+    float: left;
+    width: 60px;
+}
+
+.about-the-program-bottom-table table tr td:nth-child(1) span:last-child {
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+
+.about-the-program-bottom-table table tr:nth-child(4) td:nth-child(1) {
+    height: 215px;
+}
+
+.about-the-program-bottom-table table tr:nth-child(5) td:nth-child(1) {
+    height: 190px;
+}
+
+.about-the-program-bottom-table table tr:nth-child(6) td:nth-child(1) {
+    height: 190px;
+}
+
+.about-the-program-bottom-table table tr:nth-child(7) td:nth-child(1) {
+    height: 230px;
+}
+
+.about-the-program-bottom-table .sticky {
+    margin-top: 70px;
+}
+
+.about-the-program-bottom-table .sticky table tr:nth-child(1) {
+    position: fixed;
+    width: 89.9%;
+    top: 60px;
+    left: 5%;
+    margin: 0 auto;
+}
+
+.louder-than-our-words-why-middle-section-newadd-main .react-multiple-carousel__arrow--right {
+    right: calc(0% + 1px);
+}
+
+.louder-than-our-words-why-middle-section-newadd-main .react-multiple-carousel__arrow--left {
+    left: calc(0% + 1px);
+}
+
+.louder-than-our-words-why-middle-section-newadd-main .react-multiple-carousel__arrow {
+    background: #f4f4f4;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.louder-than-our-words-why-middle-section-newadd-main .react-multiple-carousel__arrow::before {
+    font-size: 10px;
+    color: #107869;
+}
+
+.louder-than-our-words-why-middle-section-newadd-main .louder-than-our-words-why-middle-section.newadd {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.why-us-video-frame.video-add {
+    margin-bottom: 100px;
+}
+
+.why-us-college-application.track-your-college video {
+    margin-top: 10px;
+}
+
+.STUDENTACCOLADES-sectuon-middle.new-line .STUDENTACCOLADES-sectuon-middle-left-inner-left {
+    width: 25%;
+}
+
+.STUDENTACCOLADES-sectuon-middle.new-line .STUDENTACCOLADES-sectuon-middle-left-inner-right {
+    width: 75%;
+}
+
+.STUDENTACCOLADES-sectuon-middle.new-line .STUDENTACCOLADES-sectuon-middle-left-inner-left img {
+    width: 100%;
+}
+
+.louder-than-our-words-why-middle-section.newadd .marquee-section-inner-section-back-inner {
+    text-align: left;
+}
+
+.louder-than-our-words-why-middle-section.newadd .marquee-section-inner-section-back-inner .marquee-section-inner-section-back-inner-cont {
+    padding-left: 15px;
+    position: relative;
+    top: 25px;
+}
+
+.pmp-profile-page-middle-section.container.th-grade.minerva-tab.minerva-newclass .th-grade-tab-open-frame-right-bottom-ul ul {
+    padding-left: 25px;
+}
+
+.pmp-profile-page-middle-section.container.th-grade.minerva-tab.minerva-newclass .th-grade-tab-open-frame-right {
+    width: 100% !important;
+}
+
+.admissions-page .second-banner-changehover-left h3.minerva span {
+    text-transform: initial;
+    position: relative;
+    top: -8px;
+}
+
+
+.The-proud-accomplishments-frame.new .The-proud-accomplishments-frame-right-top-frame-left img {
+    border-radius: 50px;
+}
+
+.Autobiography-of-a-Student-frame.new-add.about-the-program.frame {
+    justify-content: center;
+}
+
+.Contact-form-middle-frame-box input {
+    width: 100%;
+    border: 1px solid #10786969;
+    height: 45px;
+    padding: 10px 10px;
+}
+
+
+
+
+.Contact-form-middle-frame-box textarea {
+    width: 100%;
+    border: 1px solid #10786969;
+    height: 100px;
+    padding: 10px 10px;
+}
+
+.Contact-form-middle-frame-box {
+    margin-bottom: 40px;
+}
+
+.Contact-form-middle-frame {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.Contact-form-middle-frame-box button {
+    text-align: center;
+    color: #107869;
+    font-family: LeagueSpartan-Light;
+    font-size: 18px;
+    border: 1px solid #107869;
+    border-radius: 4px;
+    padding: 5px 25px;
+    display: inline-block;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    background: transparent;
+    text-transform: uppercase;
+}
+
+.Contact-form-middle-frame-box button:hover {
+    background: #107869;
+    color: #fff;
+}
+
+.table-th-heading {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.table-th-heading .table-th-heading-left-frame {
+    width: 25%;
+}
+
+.table-th-heading .table-th-heading-left-frame .about-the-program-bottom-table-middle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #43af9f;
+    color: #fff;
+    border-right: 1px solid #fff;
+    align-items: center;
+    font-family: CrimsonPro-Light;
+    font-size: 22px;
+    float: left;
+    text-align: left;
+    line-height: 25px;
+    font-weight: normal;
+    padding: 18px 10px;
+}
+
+.table-th-heading .table-th-heading-left-frame .about-the-program-bottom-table-middle span.number {
+    font-family: Cinzel-Regular;
+    font-size: 55px;
+}
+
+.table-th-heading .table-th-heading-left-frame:nth-child(3) .about-the-program-bottom-table-middle {
+    background: #107869;
+}
+
+.table-th-heading .table-th-heading-left-frame:nth-child(4) .about-the-program-bottom-table-middle {
+    background: #1a5653;
+}
+
+.table-th-heading .table-th-heading-left-frame:nth-child(5) .about-the-program-bottom-table-middle {
+    background: #08313a;
+}
+
+.table-tr-heading-frame {
+    display: flex;
+    margin-bottom: 15px;
+    box-shadow: rgb(149 157 165 / 18%) 0px 2px 5px;
+}
+
+.table-tr-heading-frame .table-tr-heading-frame-left {
+    width: 25%;
+}
+
+.table-tr-heading-frame .table-tr-heading-frame-left:nth-child(1) {
+    background: #ededed;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.table-tr-heading-frame .table-tr-heading-frame-left:nth-child(1) span:first-child {
+    width: 60px;
+}
+
+.table-tr-heading-frame .table-tr-heading-frame-left:nth-child(1) span:last-child {
+    text-align: left;
+    margin-left: 10px;
+    color: #08313a;
+}
+
+.table-tr-heading-frame .table-tr-heading-frame-left {
+    text-align: center;
+    font-size: 18px;
+    font-family: LeagueSpartan-Light;
+    color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 10px;
+    border-right: 1px solid #cccccc78;
+}
+
+.table-tr-heading-frame .table-tr-heading-frame-left:last-child {
+    border-right: 0px;
+}
+
+.second-banner-changehover-left2.small-banner h2 {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.second-banner-changehover-left2.small-banner h3 {
+    margin-bottom: 0px;
+}
+
+.second-banner-changehover-left2.small-banner p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header .col-md-2.fixmenu a:hover {
+    background: #107869;
+    color: #fff;
+}
+
+.our-program-how-to-apply.track-your-college.how-to-apply-bottom .Academic-roadmap-main-frame-middle-right-img img {
+    height: 55px;
+}
+
+.our-team-middle-section.about-athena.newnew.bottom .our-team-middle-section-frame-left img {
+    height: 130px;
+}
+
+.project-profile-development-frame-right-frame.bottomspacw img:nth-child(2) {
+    margin-top: 15px;
+}
+
+.presscoverage-main-frame.new {
+    padding-top: 0px;
+}
+
+.presscoverage-main-frame.new .presscoverage-main-frame-middle {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    align-items: center;
+}
+
+.presscoverage-main-frame.new .presscoverage-main-frame-middle-left {
+    padding: 30px;
+}
+
+.project-profile-development-frame-left-frame.profile-development img:nth-child(2) {
+    margin-top: 22px;
+}
+
+.table-th-heading .table-th-heading-left-frame .about-the-program-bottom-table-middle span.cont {
+    position: relative;
+    top: -5px;
+}
+
+.presscoverage-main-frame-middle.MEDIA-PAGE .footer-top-map-img-button-link {
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.presscoverage-main-frame-middle.MEDIA-PAGE .footer-top-map-img-button-link img {
+    margin-left: 15px;
+}
+
+.presscoverage-main-frame-middle.MEDIA-PAGE .track-your-college-left-link {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.presscoverage-main-frame-middle.MEDIA-PAGE .presscoverage-main-frame-middle-left {
+    padding: 0px;
+}
+
+.presscoverage-main-frame-middle.MEDIA-PAGE .presscoverage-main-frame-middle-left h2 {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.presscoverage-main-frame-middle.MEDIA-PAGE {
+    padding: 30px;
+    align-items: baseline;
+}
+
+.bread-crma-last-frame ul.texe-center {
+    justify-content: center;
+}
+
+.team-top-frame-main.main-new .team-left-frame-one-left {
+    width: 47%;
+}
+
+.team-top-frame-main.main-new .team-left-frame-one-left img {
+    width: 100%;
+}
+
+.team-top-frame-main.main-new .team-left-frame-one-right {
+    width: 53%;
+}
+
+.tab-pmp-profilr.profile-development-fianl .tab-first-frame.new-four:before {
+    background: transparent;
+    width: 70.5%;
+    left: 15%;
+    height: 79%;
+}
+
+.tab-pmp-profilr.profile-development-fianl .tab-first-frame:before {
+    z-index: -9;
+    width: 70%;
+    left: 15%;
+    height: 105%;
+}
+
+.tab-pmp-profilr.profile-development-fianl .tab-first-frame.three:before {
+    top: 25%;
+    height: 31%;
+}
+
+.tab-pmp-profilr.profile-development-fianl .tab-first-frame.three .main-n:last-child {
+    justify-content: center;
+}
+
+.tab-pmp-profilr.profile-presentation-page-new .tab-first-frame-middle h4 {
+    min-height: 40px;
+}
+
+.tab-pmp-profilr.profile-presentation-page-new .student-top-collage-section-us-uk-left-tow-border {
+    height: 88.4%;
+}
+
+.admission-to-your-dream-university-frame.color-change {
+    background: #107869;
+}
+
+.admission-to-your-dream-university-frame.color-change .admission-to-your-dream-university-frame-middle-left p span {
+    font-family: LeagueSpartan-Bold;
+}
+
+.OUR-PHILOSOPHY-middle-main.new .OUR-PHILOSOPHY-middle-main-left {
+    width: 65px;
+}
+
+.OUR-PHILOSOPHY-middle-main.new .OUR-PHILOSOPHY-middle-main-right {
+    width: 90%;
+}
+
+.OUR-PHILOSOPHY-middle-main.new .OUR-PHILOSOPHY-middle-main-left img {
+    width: 100%;
+}
+
+.none {
+    display: none;
+}
+
+.Testimonials-home-middle-right.track-your-college.mobile.none {
+    display: none;
+}
+
+.what-we-do-section-page.about-athena-new {
+    flex-direction: row-reverse;
+}
+
+.project-profile-development-frame.our-story-2nd.RAHUL-SUBRAMANIAM {
+    flex-direction: row-reverse;
+}
+
+.The-proud-accomplishments-frame-middle.AAMISH-A-BEG {
+    flex-direction: row-reverse;
+}
+
+.row.landscape-of-India {
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.project-profile-development-frame.profile-development-page {
+    flex-direction: row-reverse;
+}
+
+.blog-rect-post ul {
+    display: none;
+}
+
+.blog-rect-post ul:nth-child(1) {
+    display: inherit;
+}
+
+.blog-rect-post ul:nth-child(2) {
+    display: inherit;
+}
+
+.blog-rect-post ul:nth-child(3) {
+    display: inherit;
+}
+
+/* career page */
+.track-your-college-left-link.career-page{
+    text-align: center;
+}
+.Our-Impact-middle-frame{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 70px;
+}
+.Team-Culture-frame-middle{
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+}
+.Team-Culture-frame-middle-left{
+    width: 30%;
+}
+.Team-Culture-frame-middle-left img{
+    width: 100%;
+}
+.Team-Culture-frame-middle-right{
+   width: 65%; 
+}
+.Team-Culture-frame-middle-right h4{
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 19px;
+    margin-top:0px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.Team-Culture-frame-middle-right p:last-child{
+    margin-bottom: 0px;
+}
+.Our-Impact-middle-frame .Our-Impact-middle-frame-left{
+    width: 30%;
+}
+.Our-Impact-middle-frame .Our-Impact-middle-frame-left img{
+    width: 60px;
+}
+.Our-Impact-middle-frame .Our-Impact-middle-frame-left h4{
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 19px;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.project-profile-development-frame.what-we-do.about-athena-new.career{
+    padding-bottom: 0px;
+}
+.project-profile-development-frame.what-we-do.about-athena-new.career .heading-contact-middle p{
+    margin-bottom: 23px;
+}
+.and-new{
+    text-transform: lowercase;
+    color: #000;
+    font-family: LeagueSpartan-Regular;
+}
+.ad-last-line-admissions-canada{
+    margin-top: 50px;
+}
+.Undergraduate-Admissions-frame-middle-number ul.Important-dates.Important-dates-new  li::marker {
+    font-size: 0px;
+}
+.Undergraduate-Admissions-frame-middle-number ul.Important-dates.Important-dates-new  li::before {
+    list-style-type: circle;
+    content: "\2022";
+}
+
+.project-profile-development-frame-left.career-page .project-profile-development-frame-left-frame img:nth-child(2){
+    margin-top: 20px;
+}
+.tab-section-inadmissions-top-colleges{
+    position: relative;
+}
+.Source-US-News{
+    position: absolute;
+    right: 80px;
+    bottom: 10px;
+}
+.Source-US-News p{
+    color: #107869;
+    font-family: LeagueSpartan-Bold;
+    font-size: 16px;
+}

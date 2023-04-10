@@ -1,0 +1,113 @@
+{
+    "leadingText": "",
+    "slides": [
+        {
+            "introline": "2014",
+            "id": "2014",
+            "content": {
+                "image": "https://brandbee.nustockimages.in/athena/our-story-cla-1.jpg",
+                "h3": "HOW WE’VE GROWN",
+                "h2": "The road we have walked so far.",
+                "h5": "In 2014",
+                "l1": "The idea sprouts in a coffee shop by our two founding members.",
+                "l2": "Results in establishment of Athena’s first office in the basement of our Gurgaon home."
+            }
+        },
+        {
+            "introline": "2015",
+            "id": "2015",
+            "content": {
+                "image": "https://brandbee.nustockimages.in/athena/our-story-cla-2.jpg",
+                "h3": "HOW WE’VE GROWN",
+                "h2": "The road we have walked so far.",
+                "h5": "In 2015",
+                "l1": "The Athena logo is designed and pamphlets are distributed to different schools.",
+                "l2": "10 students onboard"
+            }
+        },
+        {
+            "introline": "2016",
+            "id": "2016",
+            "content": {
+                "image": "https://brandbee.nustockimages.in/athena/our-story-cla-3.jpg",
+                "h3": "HOW WE’VE GROWN",
+                "h2": "The road we have walked so far.",
+                "h5": "In 2016",
+                "l1": "We host our first graduation banquet as we bid farewell to Athena’s batch of ‘16",
+                "l2": "31 students and our first team members were hired"
+            }
+        },
+        {
+            "introline": "2017",
+            "id": "2017",
+            "content": {
+                "image": "https://brandbee.nustockimages.in/athena/our-story-cla-4.jpg",
+                "h3": "HOW WE’VE GROWN",
+                "h2": "The road we have walked so far.",
+                "h5": "In 2017",
+                "l1": "We reach another milestone with our batch of 49 students. ",
+                "l2": "Our first EA hired!"
+            }
+        },
+        {
+            "introline": "2018",
+            "id": "2018",
+            "content": {
+                "image": "https://brandbee.nustockimages.in/athena/our-story-cla-5.jpg",
+                "h3": "HOW WE’VE GROWN",
+                "h2": "The road we have walked so far.",
+                "h5": "In 2018",
+                "l1": "We move to the 5th floor of Vatika Triangle—our first center and begin hosting scholars for Academies and essay editing.",
+                "l2": "39 students with our first team of counselors"
+            }
+        },
+        {
+            "introline": "2019",
+            "id": "2019",
+            "content": {
+                "image": "https://brandbee.nustockimages.in/athena/our-story-cla-6.jpg",
+                "h3": "HOW WE’VE GROWN",
+                "h2": "The road we have walked so far.",
+                "h5": "In 2019",
+                "l1": "We enroll our first set of 9th graders as part of the Ivy Strategy Program and hold a sporty send-off for our graduates",
+                "l2": "33 students and 4 writer-counselors"
+            }
+        },
+        {
+            "introline": "2020",
+            "id": "2020",
+            "content": {
+                "image": "https://brandbee.nustockimages.in/athena/our-story-cla-7.jpg",
+                "h3": "HOW WE’VE GROWN",
+                "h2": "The road we have walked so far.",
+                "h5": "In 2020",
+                "l1": "We welcome Research, Arts, and Tech consultants to the Athena Family",
+                "l2": "36 students and a strong team of 10+ employees"
+            }
+        },
+        {
+            "introline": "2021",
+            "id": "2021",
+            "content": {
+                "image": "https://brandbee.nustockimages.in/athena/our-story-cla-8.jpg",
+                "h3": "HOW WE’VE GROWN",
+                "h2": "The road we have walked so far.",
+                "h5": "In 2021",
+                "l1": "We build teams of Creative, Research, and Tech mentors, and welcome a Harvard Admissions Committee member",
+                "l2": "56 students with a growing team of 30+ employees"
+            }
+        },
+        {
+            "introline": "2022",
+            "id": "2022",
+            "content": {
+                "image": "https://brandbee.nustockimages.in/athena/our-story-cla-9.jpg",
+                "h3": "HOW WE’VE GROWN",
+                "h2": "The road we have walked so far.",
+                "h5": "In 2022",
+                "l1": "We expand our national presence with centers in Mumbai and Bangalore.",
+                "l2": "Introduce the Athena Knowledge Center and skill-based Academies for 360-degree immersive learning."
+            }
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktest_projet=self.webpackChunktest_projet||[]).push([[405],{4869:function(e,t,o){o.r(t);var n=o(7294);t.default=()=>{const[e,t]=n.useState(!1);n.useEffect((()=>{window.addEventListener("scroll",(()=>{window.pageYOffset>340?t(!0):t(!1)}))}),[]);return n.createElement(n.Fragment,null,e&&n.createElement("button",{onClick:()=>{window.scrollTo({top:0,behavior:"smooth"})},className:"backToTop"},"↑"))}}}]);
+//# sourceMappingURL=component---src-pages-arrow-top-js-c3db03743d6df04538c0.js.map
